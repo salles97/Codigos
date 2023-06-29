@@ -30,7 +30,7 @@ def eixos(cur):
                 INSERT INTO dado_novo.eixo (geom, logradouro_nome, logradouro_id) 
                 VALUES (%s, %s, %s)
             """, (str(eixo[0]), str(logName[0][1]), str(logName[0][0])))
-        # Se nenhum logradouro foi encontrado, insere o eixo sem uma referência a um logradouro e marca a variável como True.
+        # Se nenhum logradouro foi encontrado, insere o eixo sem referência a logradouro.
         else:
             nao_encontrado += 1
             # Se a variável for igual a 1, imprime a mensagem.
