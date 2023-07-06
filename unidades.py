@@ -48,16 +48,18 @@ def unidades_imobiliarias(cur):
 #     Cadastra as unidades do lote em dado_novo
 #     Carregas as geometrias das coberturas e/ou piscinas
 #     Cadastra os relacionamentos de unidades e coberturas
-#
+#       
+#     Lote é predial ?
+#           Não atualiza área construida das unidades
+#     Lote não predial?
+#           Atualiza a área construida do lote
+# 
 # Possui coberturas e não possui unidades?
 #     Cria unidade em dado_novo copiando info do lote
 #     Carregas as geometrias das coberturas e/ou piscinas
 #     Cadastra os relacionamentos de unidades e coberturas
 #
-#     Lote é predial ?
-#           Não atualiza área construida das unidades
-#     Lote não predial?
-#           Atualiza a área construida do lote
+#   
 #
 # Não possue coberturas e possui unidades?
 #     Cadastra as unidades do lote em dado_novo
