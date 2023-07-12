@@ -9,7 +9,7 @@ from carregar_endereco import carregar_endereco
 from criar_unidade import criar_unidade
 
 
-def carregar_lote_e_dependencias(cur):
+def carregar_lote_e_dependencias(con, cur):
     cur.execute("SELECT *, st_area(geom) FROM public.lote")
     lotes = cur.fetchall()
 
@@ -19,8 +19,42 @@ def carregar_lote_e_dependencias(cur):
 
         if len(partes) == 4 or partes[0].startswith("Property"):
             adversidade_lote(cur, lote)
+            con.commit()
+            continue
 
         elif len(partes) == 3:
+            if partes[2].endswith(")"):
+                # o lote multi parte será encontrado em public? após o primeiro passar aqui, os demais são removidos
+                cur.execute(
+                    "SELECT * FROM public.lote WHERE name LIKE %s", (nome))
+                have_lote = cur.fetchone()
+                if have_lote is not None:
+                    # Encontrar todos os lotes com a mesma estrutura antes dos parênteses
+
+                    cur.execute(
+                        "SELECT * FROM public.lote WHERE name LIKE %s", ('{}%'.format(nome[:-3]),))
+                    lotes_multiplos = cur.fetchall()
+
+                    if len(lotes_multiplos) > 0:
+                        cur.execute(
+                            "SELECT st_union(geom) FROM public.lote WHERE name LIKE %s", ('{}%'.format('-'.nome[:-3]),))
+                        multi_geom = cur.fetchone()
+                        # Realizar a união das geometrias de todos os lotes
+                        cur.execute(
+                            "UPDATE public.lote SET geom = %s WHERE name = %s", (multi_geom, nome))
+
+                        # remove o sufixo para carregar as dependencias do lote abaixo
+                        partes[2] = partes[2][:-3]
+                        lotes_unificados = [
+                            lote['name'] for lote in lotes_multiplos if lote['name'] != nome]
+
+                        # Deletar as outras partes do lote
+                        for nome_unificado in lotes_unificados:
+                            cur.execute(
+                                "DELETE FROM public.lote WHERE name = %s", (nome_unificado,))
+
+                        # con.commit()
+
             if partes[2].isdigit():
                 try:
                     # Verifica se a rotulagem corresponde a algum registro de lote.
@@ -29,6 +63,7 @@ def carregar_lote_e_dependencias(cur):
                     infoLote = cur.fetchone()
                     if infoLote is None:
                         print('Lote não encontrado em dado_antigo.lote')
+                        con.commit()
                         continue
                     reduzido = infoLote['id']
 
@@ -61,6 +96,7 @@ def carregar_lote_e_dependencias(cur):
                                     if carregar_cobertura(reduzido, cur):
                                         atualiza_area_construida_unidade(
                                             cur, reduzido)
+                                        con.commit()
                                         continue
                     # Lote tem unidade(s) presente na base da prefeitura e foi identificado cobertura(s) e/ou piscina(s) em sua geolocalização
                     elif unidades > 0 and (cobertura_geom is not None or benfeitoria_geom is not None):
@@ -74,8 +110,9 @@ def carregar_lote_e_dependencias(cur):
                                             atualiza_area_construida_unidade(
                                                 cur, reduzido)
                                         elif infoLote['predial'] != 'Sim':
-                                            raise Exception(
-                                                'Sem informação predial')
+                                            print(
+                                                'Sem informação no campo predial, não atualizado area')
+                                        con.commit()
                                         continue
                     # Lote tem Mais de uma unidade presente na base da prefeitura e NÃO  foi identificado coberturas e/ou piscinas em sua geolocalização
                     elif unidades >= 0 and (cobertura_geom is None and benfeitoria_geom is None):
@@ -84,13 +121,16 @@ def carregar_lote_e_dependencias(cur):
                                 # Caso de predial? Caso de adversidade tipo C
                                 print(
                                     'O lote possui unidades mas não possui coberturas vetorizadas' % reduzido)
+                                con.commit()
                                 continue
 
                 except Exception as e:
                     print(e)
                     return False
             else:
-                print(nome)
+                # Tratativa para quando é um polígono composto por múltiplos polígonos
+                print('Nao é digito e nem multi partes')
+
         else:
             print(nome)
 
