@@ -1,6 +1,6 @@
 def atualiza_area_construida_unidade(cur, reduzido):
     cur.execute(
-        'SELECT id FROM dado_novo.unidade_imobiliaria WHERE id = %s', (reduzido,))
+        'SELECT id FROM dado_novo.unidade_imobiliaria WHERE lote_id = %s', (reduzido,))
     idUnidades = cur.fetchall()
 
     for id in idUnidades:

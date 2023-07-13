@@ -7,9 +7,12 @@ from calculo_areas import atualiza_area_construida_unidade
 from carregar_cobertura import carregar_cobertura
 from carregar_endereco import carregar_endereco
 from criar_unidade import criar_unidade
+from nome_arquivo import setor_carga
 
 
 def carregar_lote_e_dependencias(con, cur):
+    arquivo = open('relatorio_'+setor_carga+'_carga.txt', 'w')
+
     cur.execute("SELECT *, st_area(geom) FROM public.lote")
     lotes = cur.fetchall()
 
@@ -17,7 +20,13 @@ def carregar_lote_e_dependencias(con, cur):
         nome = lote['name']  # assumindo que 'name' é o nome da coluna
         partes = nome.split('-')
 
+        # Se tiver quatro partes tbm pode ser uma area especial com cadastro ou adversidade
         if len(partes) == 4 or partes[0].startswith("Property"):
+            if len(partes) == 4:
+                if partes[3] not in ['Ai', 'AR', 'APP', 'AV']:
+                    cadastrar_area_especial(cur)
+                    con.commit()
+                    continue
             adversidade_lote(cur, lote)
             con.commit()
             continue
@@ -28,9 +37,9 @@ def carregar_lote_e_dependencias(con, cur):
                 cur.execute(
                     "SELECT * FROM public.lote WHERE name LIKE %s", (nome))
                 have_lote = cur.fetchone()
+
                 if have_lote is not None:
                     # Encontrar todos os lotes com a mesma estrutura antes dos parênteses
-
                     cur.execute(
                         "SELECT * FROM public.lote WHERE name LIKE %s", ('{}%'.format(nome[:-3]),))
                     lotes_multiplos = cur.fetchall()
@@ -53,8 +62,6 @@ def carregar_lote_e_dependencias(con, cur):
                             cur.execute(
                                 "DELETE FROM public.lote WHERE name = %s", (nome_unificado,))
 
-                        # con.commit()
-
             if partes[2].isdigit():
                 try:
                     # Verifica se a rotulagem corresponde a algum registro de lote.
@@ -62,7 +69,8 @@ def carregar_lote_e_dependencias(con, cur):
                                 (partes[0], partes[1], partes[2]))
                     infoLote = cur.fetchone()
                     if infoLote is None:
-                        print('Lote não encontrado em dado_antigo.lote')
+                        arquivo.write(
+                            'Rótulo do lote %s-%s-%s não encontrado.\n', (partes[0], partes[1], partes[2]))
                         con.commit()
                         continue
                     reduzido = infoLote['id']
@@ -88,50 +96,64 @@ def carregar_lote_e_dependencias(con, cur):
 
                     # Lote não tem unidade presente na base da prefeitura mas foi identificado cobertura e/ou piscinas em sua geolocalização
                     if unidades == 0 and (cobertura_geom is not None or benfeitoria_geom is not None):
-                        if cadastra_lote(reduzido, True, cur):
-                            print(
-                                'Unidade não existe em nossa base, criada unidade a partir das informações do lote: ', reduzido)
-                            if cadastra_testada(reduzido, cur):
-                                if criar_unidade(reduzido, True, cur):
-                                    if carregar_cobertura(reduzido, cur):
-                                        atualiza_area_construida_unidade(
-                                            cur, reduzido)
-                                        con.commit()
-                                        continue
+                        arquivo.write(
+                            'O lote %s não possui unidade imobiliaria e foi identificado cobertura pela vetorização.\n', reduzido)
+                        adversidade_lote(cur, nome, 'Vago')
+                        con.commit()
+                        continue
+
+                    # Advsersidade onde não é possivel associar cada cobertura a cada imovel
+                    elif unidades > 1 and len(cobertura_geom) > 1 and infoLote['predial'] == 'Não':
+                        adversidade_lote(cur, nome, 'C')
+                        con.commit()
+                        continue
+
                     # Lote tem unidade(s) presente na base da prefeitura e foi identificado cobertura(s) e/ou piscina(s) em sua geolocalização
                     elif unidades > 0 and (cobertura_geom is not None or benfeitoria_geom is not None):
                         if cadastra_lote(reduzido, False, cur):
                             if cadastra_testada(reduzido, cur):
-                                # Validar se é adversidade????
+                                # Validar se apresenta adversidade de endereço pelas testadas
+                                cur.execute(
+                                    "SELECT * FROM dado_novo.testada WHERE face = 1 and lote_id = %s", (reduzido))
+                                testada_principal = cur.fetchall()
+
+                                if len(testada_principal) == 0:
+                                    adversidade_lote(cur, nome, 'End')
+                                    con.rollback()
+                                    continue
+
+                                # Se nao tem adversidade endereço segue a criação das unidades
                                 if criar_unidade(reduzido, False, cur):
                                     if carregar_cobertura(reduzido, cur):
                                         #       Quando o lote é um predio, as áreas de suass unidades não devem ser atualizadas
-                                        if infoLote['predial'] == 'Não':
+                                        if infoLote['predial'] == 'Não' and unidades == 1:
                                             atualiza_area_construida_unidade(
                                                 cur, reduzido)
                                         elif infoLote['predial'] != 'Sim':
-                                            print(
+                                            arquivo.write(
                                                 'Sem informação no campo predial, não atualizado area')
                                         con.commit()
                                         continue
+
                     # Lote tem Mais de uma unidade presente na base da prefeitura e NÃO  foi identificado coberturas e/ou piscinas em sua geolocalização
                     elif unidades >= 0 and (cobertura_geom is None and benfeitoria_geom is None):
-                        if cadastra_lote(reduzido, False, cur):
-                            if cadastra_testada(reduzido, cur):
-                                # Caso de predial? Caso de adversidade tipo C
-                                print(
-                                    'O lote possui unidades mas não possui coberturas vetorizadas' % reduzido)
-                                con.commit()
-                                continue
+                        adversidade_lote(cur, nome, 'Vago')
+                        arquivo.write(
+                            'O lote %s-%s-%s possui unidade imobiliaria mas não foi vetorizado cobertura.\n'(partes[0], partes[1], partes[2]))
+                        con.commit()
+                        continue
 
                 except Exception as e:
                     print(e)
-                    return False
+                    con.rollback()
+                    # return False
             else:
-                # Tratativa para quando é um polígono composto por múltiplos polígonos
-                print('Nao é digito e nem multi partes')
+                arquivo.write('Rótulo não identificado %s-%s-%s.\n',
+                              (partes[0], partes[1, partes[2]]))
 
         else:
-            print(nome)
+            arquivo.write('Rótulo não identificado %s-%s-%s.\n',
+                          (partes[0], partes[1, partes[2]]))
 
-    return False
+    arquivo.close()
+    return True
