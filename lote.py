@@ -1,6 +1,7 @@
 import psycopg2
 
 from adversidade_lote import adversidade_lote
+from area_especial import cadastrar_area_especial_lote
 from cadastra_lote import cadastra_lote
 from cadastra_testada import cadastra_testada
 from calculo_areas import atualiza_area_construida_unidade
@@ -21,17 +22,13 @@ def carregar_lote_e_dependencias(con, cur):
         partes = nome.split('-')
 
         # Se tiver quatro partes tbm pode ser uma area especial com cadastro ou adversidade
-        if len(partes) == 4 or partes[0].startswith("Property"):
-            if len(partes) == 4:
-                if partes[3] not in ['Ai', 'AR', 'APP', 'AV']:
-                    cadastrar_area_especial(cur)
-                    con.commit()
-                    continue
+        if (len(partes) == 4 and partes[3] in ['R', 'D', ]) or partes[0].startswith("Property"):
             adversidade_lote(cur, lote)
             con.commit()
             continue
 
-        elif len(partes) == 3:
+        elif len(partes) == 3 or (len(partes) == 4 and partes[3] in ['AI', 'AR', 'APP', 'AV']):
+
             if partes[2].endswith(")"):
                 # o lote multi parte será encontrado em public? após o primeiro passar aqui, os demais são removidos
                 cur.execute(
@@ -41,7 +38,7 @@ def carregar_lote_e_dependencias(con, cur):
                 if have_lote is not None:
                     # Encontrar todos os lotes com a mesma estrutura antes dos parênteses
                     cur.execute(
-                        "SELECT * FROM public.lote WHERE name LIKE %s", ('{}%'.format(nome[:-3]),))
+                        "SELECT * FROM public.lote WHERE name LIKE %s", ('{}-{}-{}%'.format(partes[0], partes[1], partes[2].split('(')[0]),))
                     lotes_multiplos = cur.fetchall()
 
                     if len(lotes_multiplos) > 0:
@@ -53,7 +50,7 @@ def carregar_lote_e_dependencias(con, cur):
                             "UPDATE public.lote SET geom = %s WHERE name = %s", (multi_geom, nome))
 
                         # remove o sufixo para carregar as dependencias do lote abaixo
-                        partes[2] = partes[2][:-3]
+                        partes[2] = partes[2].split('(')[0]
                         lotes_unificados = [
                             lote['name'] for lote in lotes_multiplos if lote['name'] != nome]
 
@@ -121,7 +118,10 @@ def carregar_lote_e_dependencias(con, cur):
                                     adversidade_lote(cur, nome, 'End')
                                     con.rollback()
                                     continue
-
+                                # Uma area Especial pode ter registro de lote, cadastra ele
+                                if partes[3]:
+                                    cadastrar_area_especial_lote(cur, lote, reduzido)
+                                    partes.pop(3)
                                 # Se nao tem adversidade endereço segue a criação das unidades
                                 if criar_unidade(reduzido, False, cur):
                                     if carregar_cobertura(reduzido, cur):

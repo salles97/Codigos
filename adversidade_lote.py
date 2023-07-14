@@ -1,9 +1,16 @@
+from nome_arquivo import setor_carga
 
 # A função recebe 3 parametros, sendo o terceiro utilizado somente para casos especificos
 # Cur: cursor aberto
 # name: nome da rotulagem do lote contido no schema public do banco
 # adv: Tipo da adversidade, quando identificada no script e nao no rotulo
+
+
 def adversidade_lote(cur, name, adv):
+    try:
+        arquivo = open('relatorio_' + setor_carga + '_adversidades.txt', 'a')
+    except FileNotFoundError:
+        arquivo = open('relatorio_' + setor_carga + '_adversidades.txt', 'w')
 
     if name.startswith('Property'):
         tipoAdv = 'I'
@@ -15,10 +22,14 @@ def adversidade_lote(cur, name, adv):
         tipoAdv = 'C'
     elif adv == 'End':
         tipoAdv = 'End'
+    elif adv == 'Vago':
+        tipoAdv = 'Vago'
     else:
-        print('Adversidade não identificada, rótulo: %s', name)
+        arquivo.write('Adversidade não identificada, rótulo: %s', name)
         return
 
+    arquivo.write(
+        'lote: %s adicionado com adversidade do tipo %s', name, tipoAdv)
     cur.execute("SELECT * FROM public.lote WHERE name = %s", name)
     lote = cur.fetchone()
 
@@ -53,4 +64,6 @@ def adversidade_lote(cur, name, adv):
             cur.execute('INSERT INTO to_review.testada (geom, loteReview_id) VALUES (%s, %s)',
                         testada['geom'], idLoteReview)
     else:
-        print('Lote adversidade também sem testada!!')
+        arquivo.write('Lote adversidade também sem testada!!')
+
+    arquivo.close()
