@@ -30,7 +30,7 @@ def logradouros(cur):
     df.loc[df['name'].str.endswith(' '), ['name']] = df['name'].str[:-1]
     # Exclui a substring do campo de geometria
     df['geom'] = df['geom'].str.replace(
-        'MULTILINESTRING\(', '', regex=True).str[:-1]
+        'MULTILINESTRING\(', '', regex=True).str[:-1]   
 
     # print('Logradouros não encontrados no cadastro da prefeitura.')
     for index, row in df.iterrows():

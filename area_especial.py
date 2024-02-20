@@ -1,6 +1,9 @@
 
 
 # Quando a área Especial possui registro de lote
+import pandas as pd
+
+
 def cadastrar_area_especial_lote(cur, lote, reduzido):
     nome = lote['name']  # assumindo que 'name' é o nome da coluna
     partes = nome.split('-')
@@ -15,10 +18,16 @@ def area_especial(cur):
         'SELECT id, name, ST_AsText(geom, 31983) FROM public.area_especial')
     areas_especiais = cur.fetchall()
 
-    # Para cada area especial
-    for area in areas_especiais:
-        # S-Q-Tipo
+    # Converter para DataFrame
+    df = pd.DataFrame(areas_especiais, columns=['id', 'name', 'geom'])
+
+    # Acessar colunas usando índices
+    for index, area in df.iterrows():
         partes = area['name'].split('-')
+    # Para cada area especial
+    # for area in areas_especiais:
+    #     # S-Q-Tipo
+    #     partes = area['name'].split('-')
         # Buscando o tipo da area nessa rotulagem ruim
         if partes[2].find('('):
             partes[2] = partes[2].split('(')[0]

@@ -1,19 +1,19 @@
 
-def cadastra_lote(reduzido, vago, cur):
-    reduzido_str = str(reduzido)
+def cadastra_lote(reduzido, vago, nome, cur):
 
+    # Buscará pelo registro do lote na base da prefeitura
     cur.execute("SELECT * FROM dado_antigo.lote WHERE id = %s", (reduzido,))
     lote = cur.fetchone()
-    # if lote is None:
-    #     raise Exception('Lote não encontrado em dado_antigo.lote')
+    if lote is None:
+        raise Exception('Lote não encontrado em dado_antigo.lote')
 
+#   Vai buscar a geometria e a area dela
     cur.execute(
-        "SELECT geom, st_area(geom) as area FROM public.lote WHERE name = %s", (reduzido_str,))
+        "SELECT geom, st_area(geom) as area FROM public.lote WHERE name = %s", (nome,))
     publicLote = cur.fetchone()
     if publicLote is None:
         raise Exception('Geom não encontrado em public.lote')
 
-    # cur.execute("SELECT st_area(geom) FROM public.lote WHERE name = %s", (reduzido_str,))
     area = publicLote['area']
     geom_lote = publicLote['geom']
     if area is None:

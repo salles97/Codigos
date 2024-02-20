@@ -19,12 +19,10 @@ agrupar em um lote só as duas ou mais geometrias
 --- Inserir as notificações de erros e possiveis falhas da geomatica em um arquivo automaticamente 
     --Feito 
 
---- Teste simulado com banco e dados de caxambu
-
 --- AREAS ESPECIAIS 
-    -- Quando é lote tbm
+    -- Quando a area especial é lote tbm e esta no layer de lotes
         --Feito 
-    -- Quando não é lote
+    -- Quando não é lote e esta em outro arquivo/layer
         --Feito 
 
 --- Adicionar Mapeamento pra adversidade lote vago (quando tem cobertura e nao tem unidade ou vice e versa)
@@ -32,6 +30,14 @@ agrupar em um lote só as duas ou mais geometrias
 
 
 --- Validação das areas dos lotes (se diferença maior de 30% devolver pra ajuste)
-
+    --Feito
 
 --- Inserir a carga para Piscinas como dependencia de carga do lote
+    --Feito
+
+
+--- Validações
+    --Feito
+
+
+--- Teste simulado com banco e dados de caxambu

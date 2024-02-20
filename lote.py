@@ -5,6 +5,7 @@ from area_especial import cadastrar_area_especial_lote
 from cadastra_lote import cadastra_lote
 from cadastra_testada import cadastra_testada
 from calculo_areas import atualiza_area_construida_unidade
+from carregar_benfeitoria import carregar_benfeitoria
 from carregar_cobertura import carregar_cobertura
 from carregar_endereco import carregar_endereco
 from criar_unidade import criar_unidade
@@ -35,6 +36,7 @@ def carregar_lote_e_dependencias(con, cur):
                     "SELECT * FROM public.lote WHERE name LIKE %s", (nome))
                 have_lote = cur.fetchone()
 
+#               LOTE S-Q-L(n)
                 if have_lote is not None:
                     # Encontrar todos os lotes com a mesma estrutura antes dos parênteses
                     cur.execute(
@@ -65,12 +67,18 @@ def carregar_lote_e_dependencias(con, cur):
                     cur.execute("SELECT * FROM dado_antigo.lote WHERE setor_cod = %s AND quadra_cod = %s AND lote_cod = %s",
                                 (partes[0], partes[1], partes[2]))
                     infoLote = cur.fetchone()
+                    # Lote não encontrado
                     if infoLote is None:
                         arquivo.write(
                             'Rótulo do lote %s-%s-%s não encontrado.\n', (partes[0], partes[1], partes[2]))
                         con.commit()
                         continue
                     reduzido = infoLote['id']
+#
+#               Valida a área do lote.
+                    if lote['st_area'] > infoLote['area_lote'] * 1.3 or lote['st_area'] < infoLote['area_lote'] * 0.7:
+                        arquivo.write('Lote %s mudou muito a área, de (registro): %s para (area geometria): %s' % (
+                            reduzido, infoLote['area_total'], lote['st_area']))
 
                     # Se carrega o endereço do lote, sempre deve carregar, mas é possível identificar erro com o logradouro do lote.
                     # Esses endereços com 'erros' são cadastrados sem referenciar logradouro.
@@ -100,14 +108,14 @@ def carregar_lote_e_dependencias(con, cur):
                         continue
 
                     # Advsersidade onde não é possivel associar cada cobertura a cada imovel
-                    elif unidades > 1 and len(cobertura_geom) > 1 and infoLote['predial'] == 'Não':
+                    elif unidades > 1 and len(cobertura_geom) >= 1 and infoLote['predial'] == 'Não':
                         adversidade_lote(cur, nome, 'C')
-                        con.commit()
+                        con.rollback()
                         continue
 
                     # Lote tem unidade(s) presente na base da prefeitura e foi identificado cobertura(s) e/ou piscina(s) em sua geolocalização
                     elif unidades > 0 and (cobertura_geom is not None or benfeitoria_geom is not None):
-                        if cadastra_lote(reduzido, False, cur):
+                        if cadastra_lote(reduzido, nome, False, cur):
                             if cadastra_testada(reduzido, cur):
                                 # Validar se apresenta adversidade de endereço pelas testadas
                                 cur.execute(
@@ -120,20 +128,24 @@ def carregar_lote_e_dependencias(con, cur):
                                     continue
                                 # Uma area Especial pode ter registro de lote, cadastra ele
                                 if partes[3]:
-                                    cadastrar_area_especial_lote(cur, lote, reduzido)
+                                    cadastrar_area_especial_lote(
+                                        cur, lote, reduzido)
                                     partes.pop(3)
                                 # Se nao tem adversidade endereço segue a criação das unidades
                                 if criar_unidade(reduzido, False, cur):
-                                    if carregar_cobertura(reduzido, cur):
-                                        #       Quando o lote é um predio, as áreas de suass unidades não devem ser atualizadas
-                                        if infoLote['predial'] == 'Não' and unidades == 1:
-                                            atualiza_area_construida_unidade(
-                                                cur, reduzido)
-                                        elif infoLote['predial'] != 'Sim':
-                                            arquivo.write(
-                                                'Sem informação no campo predial, não atualizado area')
-                                        con.commit()
-                                        continue
+                                    if (cobertura_geom is not None):
+                                        carregar_cobertura(reduzido, cur)
+                                    if (benfeitoria_geom is not None):
+                                        carregar_benfeitoria(reduzido, cur)
+                                #   Quando o lote é um predio, as áreas de suass unidades não devem ser atualizadas
+                                    if infoLote['predial'] == 'Não' and unidades == 1:
+                                        atualiza_area_construida_unidade(
+                                            cur, reduzido)
+                                    elif infoLote['predial'] != 'Sim':
+                                        arquivo.write(
+                                            'Lote %s Sem informação no campo predial, não atualizado area', nome)
+                                    con.commit()
+                                    continue
 
                     # Lote tem Mais de uma unidade presente na base da prefeitura e NÃO  foi identificado coberturas e/ou piscinas em sua geolocalização
                     elif unidades >= 0 and (cobertura_geom is None and benfeitoria_geom is None):
