@@ -1,10 +1,9 @@
-
-def carregar_cobertura(reduzido, cur):
+def carregar_cobertura(reduzido, cur, arquivo_log):
     try:
         # Busca por um array de coberturas que estejam dentro do lote
-        cur.execute("SELECT array_agg(ac.geom) FROM dado_novo.lote l, public.area_coberta ac "
+        cur.execute("SELECT array_agg(ST_AsText(ac.geom)) FROM dado_novo.lote l, public.area_coberta ac "
                     "WHERE ST_CONTAINS(l.geom, ac.geom) AND l.id = %s", (reduzido,))
-        coberturas_temp = cur.fetchone()
+        coberturas_temp = cur.fetchone()[0]
 
         # Busca todas as unidades pertencentes ao lote
         cur.execute(
@@ -14,8 +13,8 @@ def carregar_cobertura(reduzido, cur):
         # Cadastra todas as cobertura
         for cobertura_geom in coberturas_temp:
             cur.execute(
-                "INSERT INTO dado_novo.area_coberta (geom) VALUES (%s) RETURNING id", (cobertura_geom,))
-            cobertura_id = cur.fetchone()
+                "INSERT INTO dado_novo.area_coberta (geom) VALUES (ST_GeomFromText(%s)) RETURNING id", (cobertura_geom,))
+            cobertura_id = cur.fetchone()[0]
 
             # Associando elas as unidades
             for unidade in unidades:
@@ -26,5 +25,5 @@ def carregar_cobertura(reduzido, cur):
         return True
 
     except Exception as e:
-        print('Erro ao criar e associar cobertura:', e)
+        arquivo_log.write(f'Erro ao criar e associar cobertura para o lote {reduzido}: {e}\n')
         return False

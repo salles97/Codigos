@@ -7,8 +7,8 @@ from cadastra_testada import cadastra_testada
 from calculo_areas import atualiza_area_construida_unidade
 from carregar_benfeitoria import carregar_benfeitoria
 from carregar_cobertura import carregar_cobertura
-from carregar_endereco import carregar_endereco
-from criar_unidade import criar_unidade
+from Itajuba.carregar_endereco import carregar_endereco
+from Itajuba.imoveis.criar_unidade import criar_unidade
 from nome_arquivo import setor_carga
 
 
@@ -78,7 +78,7 @@ def carregar_lote_e_dependencias(con, cur):
 #               Valida a área do lote.
                     if lote['st_area'] > infoLote['area_lote'] * 1.3 or lote['st_area'] < infoLote['area_lote'] * 0.7:
                         arquivo.write('Lote %s mudou muito a área, de (registro): %s para (area geometria): %s' % (
-                            reduzido, infoLote['area_total'], lote['st_area']))
+                            reduzido, infoLote['area_terreno'], lote['st_area']))
 
                     # Se carrega o endereço do lote, sempre deve carregar, mas é possível identificar erro com o logradouro do lote.
                     # Esses endereços com 'erros' são cadastrados sem referenciar logradouro.

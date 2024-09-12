@@ -1,9 +1,9 @@
 # Quando predial nao atualizar area
 
-from carregar_endereco import carregar_endereco
+from imoveis.carregar_endereco import carregar_endereco
 
 
-def criar_unidade(reduzido, param, cur):
+def criar_unidade(reduzido, param, cur, arquivo_log):
     try:
         if param is True:
             cur.execute(
@@ -11,7 +11,7 @@ def criar_unidade(reduzido, param, cur):
             unidades = cur.fetchall()
             for unidade in unidades:
 
-                ask = carregar_endereco(unidade['id'], cur)
+                ask = carregar_endereco(unidade['id'], cur, arquivo_log)
                 if ask:
                     cur.execute("INSERT INTO dado_novo.unidade_imobiliaria (id, lote_id, unidade_cod, proprietario_id, endereco_id, setor_cod, quadra_cod, lote_cod) "
                                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
@@ -23,5 +23,5 @@ def criar_unidade(reduzido, param, cur):
         return True
 
     except Exception as e:
-        print('Erro ao criar unidades imobiliárias em dado_novo.unidade_imobiliaria:', e)
+        arquivo_log.write(f'Erro ao criar unidades imobiliárias em dado_novo.unidade_imobiliaria para o reduzido {reduzido}: {e}\n')
         return False

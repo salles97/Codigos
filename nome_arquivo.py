@@ -1,1 +1,0 @@
-setor_carga = ""

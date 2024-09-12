@@ -23,7 +23,7 @@ def cadastra_lote(reduzido, vago, nome, cur):
         cur.execute("INSERT INTO dado_novo.lote (id, setor_cod, quadra_cod, lote_cod, unidade, area_terreno, vago, geom, predial, endereco_id, proprietario_id) "
                     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                     (lote['id'], lote['setor_cod'], lote['quadra_cod'], lote['lote_cod'], lote['unidade'], area, 's' if vago else 'n', geom_lote, lote['predial'], lote['endereco_id'] if vago else None, lote['proprietario_id'] if vago else None))
-        print('Inserindo lote com reduzido=%, area_total=%, endereco_id=%, geom=%',
+        print('Inserindo lote com reduzido=%, area_terreno=%, endereco_id=%, geom=%',
               lote['id'], area, lote['endereco_id'], geom_lote)
         return True
     except Exception as e:
