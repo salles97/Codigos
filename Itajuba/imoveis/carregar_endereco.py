@@ -30,7 +30,7 @@ def carregar_endereco(reduzido, cur, arquivo_log):
                     # cur.execute("INSERT INTO dado_novo.endereco (id, bairro_cod, numero, complemento) "
                     #             "VALUES (%s, %s, %s, %s)",
                     #             (reduzido, endCopia['bairro_cod'], endCopia['numero'], endCopia['complemento']))
-                    arquivo_log.write(f'Geometria do logradouro para este endereço não foi encontrado. Código do logradouro no cadastro: {endCopia["logradouro_cod"]}\n')
+                    arquivo_log.write(f'Logradouro do endereco do imovel {reduzido} não foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}\n')
                     return False
                 return True
             else:

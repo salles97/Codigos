@@ -1,13 +1,11 @@
 import psycopg2
+import os
 
-def adversidade_lote(cur, lote, adv, arquivo_log):
+def adversidade_lote(cur, lote, adv, arquivo_log, setor_carga, setor=None, quadra=None, lote_cod=None, novo_setor=None, nova_quadra=None, novo_lote=None, lotes_remembramento=None):
     # Certifique-se de acessar o valor da coluna do lote
     name = lote['name']  # Usa um valor padrão se 'name' não estiver presente
 
-    # Abrir o arquivo de relatório usando um context manager
-    # arquivo_path = f'relatorio_{setor_carga}_adversidades.txt'
-    # with open(arquivo_path, 'a') as arquivo:
-        # Determinar o tipo de adversidade
+    # Determinar o tipo de adversidade
     tipoAdv = {
         'C': 'C',
         'End': 'End',
@@ -17,11 +15,16 @@ def adversidade_lote(cur, lote, adv, arquivo_log):
         'Outra': 'Outra'
     }.get(adv, None)
 
-    if tipoAdv is None:
-        arquivo_log.write(f'Adversidade não identificada, rótulo: {name}\n')
-        return
+    # if tipoAdv is None:
+    #     arquivo_log.write(f'Adversidade não identificada, rótulo: {name}\n')
+    #     return
 
-    arquivo_log.write(f'lote: {name} adicionado com adversidade do tipo {tipoAdv}\n')
+    # Criar o arquivo de adversidades no diretório atual
+    arquivo_adversidades_path = f'relatorio_{setor_carga}_adversidades.txt'
+    
+    # Abrir o arquivo de adversidades usando um context manager
+    with open(arquivo_adversidades_path, 'a') as arquivo_adversidades:
+        arquivo_adversidades.write(f'Lote: {name} adicionado com adversidade do tipo {tipoAdv}\n')
 
     try:
         # Executar consulta para obter o lote
@@ -31,7 +34,6 @@ def adversidade_lote(cur, lote, adv, arquivo_log):
         if lote is None:
             arquivo_log.write(f'Lote não encontrado na base de dados: {name}\n')
             return
-        
         
         # Executar consultas para obter dados relacionados
         cur.execute('SELECT geom FROM public.area_coberta WHERE ST_Contains(%s, geom)', (lote['geom'],))
@@ -45,13 +47,27 @@ def adversidade_lote(cur, lote, adv, arquivo_log):
 
         # Inserir lote na tabela to_review
         try:
-            cur.execute('INSERT INTO to_review.lote (name, geom, tipo) VALUES (%s, %s, %s) RETURNING id',
-                        (lote['name'], lote['geom'], tipoAdv))
+            cur.execute(''' 
+                INSERT INTO to_review.lote 
+                (name, geom, tipo, setor_cod, quadra_cod, lote_cod, novo_setor, nova_quadra, novo_lote, lotes_remembramento) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s) 
+                RETURNING id
+            ''', (
+                lote['name'], 
+                lote['geom'], 
+                tipoAdv, 
+                setor, 
+                quadra, 
+                lote_cod, 
+                novo_setor, 
+                nova_quadra, 
+                novo_lote, 
+                ','.join(lotes_remembramento) if lotes_remembramento else None
+            ))
             idLoteReview = cur.fetchone()[0]
         except psycopg2.Error as e:
             arquivo_log.write(f'Erro ao inserir lote: {e}\n')
-            # cur.rollback()
-            return  # Continua para o próximo lote, não encerra a função
+            return
 
         # Inserir coberturas na tabela to_review
         if coberturas:
@@ -61,7 +77,6 @@ def adversidade_lote(cur, lote, adv, arquivo_log):
                                 (cobertura['geom'], 'C', idLoteReview))
                 except psycopg2.Error as e:
                     arquivo_log.write(f'Erro ao inserir cobertura : {cobertura["geom"]}. Erro: {e}\n')
-                    # cur.rollback()
 
         # Inserir benfeitorias na tabela to_review
         if benfeitorias:
@@ -71,7 +86,6 @@ def adversidade_lote(cur, lote, adv, arquivo_log):
                                 (benfeitoria['geom'], 'B', idLoteReview))
                 except psycopg2.Error as e:
                     arquivo_log.write(f'Erro ao inserir benfeitoria : {benfeitoria["geom"]}. Erro: {e}\n')
-                    # cur.rollback()
 
         # Inserir testadas na tabela to_review
         if testadas:
@@ -81,8 +95,6 @@ def adversidade_lote(cur, lote, adv, arquivo_log):
                                 (testada['geom'], idLoteReview, testada['geom']))
                 except psycopg2.Error as e:
                     arquivo_log.write(f'Erro ao inserir testada com geom duplicado: {testada["geom"]}. Erro: {e}\n')
-                    # cur.rollback()
 
     except psycopg2.Error as e:
         arquivo_log.write(f'Erro ao processar lote {name}. Erro: {e}\n')
-        # cur.rollback()  # Garante que a transação seja revertida em caso de erro

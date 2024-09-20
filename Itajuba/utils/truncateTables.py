@@ -10,6 +10,7 @@ def truncar_tabelas_dado_novo(con, cur):
         'unidade_imobiliaria',
         'testada',
         'area_coberta',
+        'area_especial',
         'benfeitoria',
         'endereco'
     ]
@@ -21,7 +22,7 @@ def truncar_tabelas_dado_novo(con, cur):
         except Exception as e:
             print(f"Erro ao truncar a tabela dado_novo.{tabela}: {str(e)}")
 
-    print("Processo de limpeza das tabelas concluído.")
+    print("Processo de limpeza das tabelas dado_novo concluído.")
 
 def truncar_tabelas_to_review(con, cur):
     

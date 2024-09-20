@@ -1,5 +1,4 @@
-
-def cadastra_lote(reduzido, vago, nome, cur):
+def cadastra_lote(reduzido, vago, nome, cur, arquivo_log, novo_setor=None, nova_quadra=None, novo_lote=None):
 
     # Buscará pelo registro do lote na base da prefeitura
     cur.execute("SELECT * FROM dado_antigo.lote WHERE id = %s", (reduzido,))
@@ -20,6 +19,12 @@ def cadastra_lote(reduzido, vago, nome, cur):
         raise Exception('Area da Geom não encontrado em public.lote')
 
     try:
+        if novo_setor and nova_quadra and novo_lote:
+            lote['setor_cod'] = novo_setor
+            lote['quadra_cod'] = nova_quadra
+            lote['lote_cod'] = novo_lote
+            arquivo_log.write(f"Lote {nome} atualizado com setor {novo_setor}, quadra {nova_quadra} e lote {novo_lote}\n")
+
         cur.execute("INSERT INTO dado_novo.lote (id, setor_cod, quadra_cod, lote_cod, unidade, area_terreno, vago, geom, predial, endereco_id, proprietario_id) "
                     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                     (lote['id'], lote['setor_cod'], lote['quadra_cod'], lote['lote_cod'], lote['unidade'], area, 's' if vago else 'n', geom_lote, lote['predial'], lote['endereco_id'] if vago else None, lote['proprietario_id'] if vago else None))
