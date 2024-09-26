@@ -195,10 +195,42 @@ def processar_lote(cur, con, arquivo_log, setor_carga, lote, nome,
             # arquivo_log.write(f'O lote {nome} não possui unidade imobiliaria e foi identificado cobertura pela vetorização.\n')
                  
             log.add_nova_unidade(f"O lote {nome} não possui unidade imobiliaria e foi identificado cobertura pela vetorização.")
-            adversidade_lote(cur, lote, 'Vago', arquivo_log, setor_carga, setor=setor_cod, quadra=quadra_cod, lote_cod=lote_cod)
-            # //Criar a unidade com base no lote
+            # adversidade_lote(cur, lote, 'Vago', arquivo_log, setor_carga, setor=setor_cod, quadra=quadra_cod, lote_cod=lote_cod)
+            # # //Criar a unidade com base no lote
             
-            
+            # Criar o lote, depois criar a unidade usando o param false
+            if cadastra_lote(reduzido, False, nome, cur, arquivo_log, log, novo_setor, nova_quadra, novo_lote):
+                if cadastra_testada(reduzido, cur, arquivo_log): 
+                    try:
+                        cur.execute(
+                            "SELECT * FROM dado_novo.testada WHERE face = 1 and lote_id = %s", (reduzido,))
+                        testada_principal = cur.fetchall()
+ 
+                        if len(testada_principal) == 0:
+                            # arquivo_log.write(f'Adversidade de endereço para o lote {nome}\n')
+                            con.rollback()
+                            adversidade_lote(cur, lote, 'End', arquivo_log, setor_carga, setor=setor_cod, quadra=quadra_cod, lote_cod=lote_cod)
+                            return
+
+                        if tipo_especial:
+                            cadastrar_area_especial_lote(
+                                cur, lote, reduzido) 
+                            arquivo_log.write('Cadastrou area especial\n')
+
+                        # Se não tem adversidade endereço segue a criação das unidades
+                        if criar_unidade(reduzido, nome, False, cur, arquivo_log, log):
+                            # arquivo_log.write('Criou unidade\n')
+
+                            if (cobertura_geom is not None and len(cobertura_geom) > 0): 
+                                carregar_cobertura(reduzido, cur,arquivo_log)
+                            if (benfeitoria_geom is not None and len(benfeitoria_geom) > 0): 
+                                carregar_benfeitoria(reduzido, cur) 
+
+                            return    
+                        
+                    except Exception as e:
+                        arquivo_log.write(f"Erro ao processar imovel vago com cobertura: {str(e)}\n")
+                        raise Exception()
             return   
 
         # Advsersidade onde não é possível associar cada cobertura a cada imóvel
@@ -233,24 +265,13 @@ def processar_lote(cur, con, arquivo_log, setor_carga, lote, nome,
                             arquivo_log.write('Cadastrou area especial\n')
 
                         # Se não tem adversidade endereço segue a criação das unidades
-                        if criar_unidade(reduzido, nome, False, cur, arquivo_log, log):
+                        if criar_unidade(reduzido, nome, True, cur, arquivo_log, log):
                             # arquivo_log.write('Criou unidade\n')
 
-                            if (cobertura_geom is not None and len(cobertura_geom) > 0):
-                                # arquivo_log.write(f'Cobertura encontrada para o lote {reduzido}\n')
-                                # arquivo_log.write(f'Número de geometrias de cobertura: {len(cobertura_geom)}\n')
+                            if (cobertura_geom is not None and len(cobertura_geom) > 0): 
                                 carregar_cobertura(reduzido, cur,arquivo_log)
-                            if (benfeitoria_geom is not None and len(benfeitoria_geom) > 0):
-                                # arquivo_log.write(f'Benfeitoria encontrada para o lote {reduzido}\n')
-                                # arquivo_log.write(f'Número de geometrias de benfeitoria: {len(benfeitoria_geom)}\n')
-                                carregar_benfeitoria(reduzido, cur)
-                            
-                            # Quando o lote é um prédio, as áreas de suas unidades não devem ser atualizadas
-                            # if infoLote['predial'] == 'Não' and unidades == 1:
-                            #     atualiza_area_construida_unidade(
-                            #         cur, reduzido)
-                            # elif infoLote['predial'] != 'Sim':
-                            #         arquivo_log.write(f'Lote {nome} Sem informacao predial, não atualizado área\n')
+                            if (benfeitoria_geom is not None and len(benfeitoria_geom) > 0): 
+                                carregar_benfeitoria(reduzido, cur) 
                             return    
 
                     except Exception as e:
@@ -281,14 +302,11 @@ def processar_lote(cur, con, arquivo_log, setor_carga, lote, nome,
                         # arquivo_log.write('Cadastrou area especial\n')
 
                     if criar_unidade(reduzido, nome, True, cur, arquivo_log, log):
-                        # Quando o lote é um prédio, as áreas de suas unidades não devem ser atualizadas
-                        # if infoLote['predial'] == 'Não' and unidades > 1:
-                        #     atualiza_area_construida_unidade(
-                        #         cur, reduzido)
-                        # elif infoLote['predial'] != 'Sim':
-
-                            # arquivo_log.write(f'Lote {nome} Sem informacao no campo predial, nao atualizado area\n')
-                            # log.add_predial(f"Lote {nome} Sem informacao no campo predial, nao atualizado area")
+                        if (cobertura_geom is not None and len(cobertura_geom) > 0): 
+                            carregar_cobertura(reduzido, cur,arquivo_log)
+                        if (benfeitoria_geom is not None and len(benfeitoria_geom) > 0): 
+                            carregar_benfeitoria(reduzido, cur) 
+                        
                         return
           
             log.add_sem_cobertura(f"O lote {nome} foi identificado sem coberturas e/ou benfeitorias. Lote tem {unidades} unidades")
