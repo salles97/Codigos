@@ -1,6 +1,6 @@
-import traceback 
+import traceback  
 
-def carregar_endereco(reduzido, cur, arquivo_log):
+def carregar_endereco(reduzido, nome, cur, arquivo_log, log):
     try:
         cur.execute(
             "SELECT COUNT(*) FROM dado_novo.endereco WHERE id = %s", (reduzido,))
@@ -30,7 +30,8 @@ def carregar_endereco(reduzido, cur, arquivo_log):
                     # cur.execute("INSERT INTO dado_novo.endereco (id, bairro_cod, numero, complemento) "
                     #             "VALUES (%s, %s, %s, %s)",
                     #             (reduzido, endCopia['bairro_cod'], endCopia['numero'], endCopia['complemento']))
-                    arquivo_log.write(f'Logradouro do endereco do imovel {reduzido} não foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}\n')
+                    # arquivo_log.write(f'Logradouro do endereco do imovel {reduzido} não foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}\n')
+                    log.add_logradouro_nao_mapeado(f'Logradouro do endereco do imovel {nome} não foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}')
                     return False
                 return True
             else:
