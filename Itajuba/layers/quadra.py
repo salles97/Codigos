@@ -26,7 +26,7 @@ def quadras(cur):
                     "INSERT INTO to_review.quadra (name, geom) VALUES (%s, %s)", (row['name'], row['geom']))
             else:
                 cod = int(cod)
-                # Verifica se já existe uma quadra com o mesmo código e setor no banco de dados
+                # Verifica se já existe uma quadra com o mesmo codigo e setor no banco de dados
                 cur.execute(
                     "SELECT geom FROM dado_novo.quadra WHERE setor_cod=%s AND cod=%s", (setor, cod))
                 recset = cur.fetchall()
@@ -40,11 +40,11 @@ def quadras(cur):
                     cur.execute(
                         "UPDATE dado_novo.quadra SET geom=%s WHERE setor_cod=%s AND cod=%s", (new_geom, setor, cod))
                 else:
-                    # Se não existir, insere a nova quadra
+                    # Se nao existir, insere a nova quadra
                     cur.execute(
                         "INSERT INTO dado_novo.quadra (cod, setor_cod, distrito_cod, geom) VALUES (%s, %s, 1, %s)", (cod, setor, row['geom']))
         else:
-            # Se o nome da quadra não corresponde ao padrão esperado, insere na tabela de revisão
+            # Se o nome da quadra nao corresponde ao padrao esperado, insere na tabela de revisao
             cur.execute(
                 "INSERT INTO to_review.quadra (name, geom) VALUES (%s, %s)", (row['name'], row['geom']))
 

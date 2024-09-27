@@ -1,31 +1,31 @@
 
-# As validações Geometricas tem como propósito identificar incosistencias com os dados geometricos
+# As validacões Geometricas tem como proposito identificar incosistencias com os dados geometricos
 # antes de associar aos registros da prefeitura
 #
 # Busca identificar:
-# Lotes que não se encontram dentro de sua quadra
+# Lotes que nao se encontram dentro de sua quadra
 #   O rotulo da quadra, contempla seu codigo, assim como no rotulo do lote tem a sua quadra
-#   Aqui se compara as geometrias de lote e quadras com base na combinação de setor e quadra contida em seus rotulos
+#   Aqui se compara as geometrias de lote e quadras com base na combinacao de setor e quadra contida em seus rotulos
 #
-# Areas Cobertas que não estão dentro de nenhum lote
-#   Busca consultar espacialmente todas as coberturas que não estão dentro de nenhum lote
+# Areas Cobertas que nao estao dentro de nenhum lote
+#   Busca consultar espacialmente todas as coberturas que nao estao dentro de nenhum lote
 #
 # Validar se algum logradouro está em cruzando com a geometria de alguma quadra
 #
 # Validar se algum eixo está em cruzando com a geometria de alguma quadra
 #
-# Validar se existe duplicações de geometria de testadas
+# Validar se existe duplicacões de geometria de testadas
 #     Bem comum vir duplicado e causar muito ajuste manual
 #
 #
 #
 
-# Validações que nao tem como serem adiantas:
-# Validação se cobertura nao possui relacionamento com nenhuma unidade
+# Validacões que nao tem como serem adiantas:
+# Validacao se cobertura nao possui relacionamento com nenhuma unidade
 #
-# Validação se Lote vago tem endereco e proprietario
+# Validacao se Lote vago tem endereco e proprietario
 #
-# Validação se lote ocupado não tem endereco e proprietario
+# Validacao se lote ocupado nao tem endereco e proprietario
 #
 # Unidades sem Cobertura
 #
@@ -33,14 +33,14 @@
 #
 # Lote possui testada principal ou mais de uma
 #
-# Logradouros carregados não compatíveis com registros antigos
+# Logradouros carregados nao compatíveis com registros antigos
 def validacoes_pre_carga(cur):
     cur.execute("SELECT name, geom FROM public.lote")
     lotes = cur.fetchall()
 
     for lote in lotes:
         validar_lote_e_quadra(lote['name'], cur)
-        # Se o lote nao tiver a informação da quadra, apenas ver se estea contido em alguma quadra
+        # Se o lote nao tiver a informacao da quadra, apenas ver se estea contido em alguma quadra
 
     area_fora_lote(cur)
     validar_logradouros_eixos(cur)
@@ -111,7 +111,7 @@ def validar_logradouros_eixos(cur):
     print('\n')
 
 # def validacao_geometrica(cur):
-    # Verifica se a cobertura associada as unidades estão no lote dela
+    # Verifica se a cobertura associada as unidades estao no lote dela
     # cur.execute(
     #     'select a.id from dado_novo.lote as l, dado_novo.area_coberta as a, dado_novo.unidade_imobiliaria as u,\
     #         dado_novo.unidade_cobertura as c where l.id=u.lote_id and u.id=c.unidade_id and a.id=c.area_coberta_id\
@@ -125,7 +125,7 @@ def validar_logradouros_eixos(cur):
     #     print('-----REGRA AREA COBERTA VALIDO-----')
 
 
-# Regras de validação de Cadastral
+# Regras de validacao de Cadastral
 def validacoes_pos_carga(cur):
     # Regra lote
     #     cur.execute(
@@ -134,12 +134,12 @@ def validacoes_pos_carga(cur):
     #         'select id, setor_cod, quadra_cod,lote_cod from dado_novo.lote where ((vago=\'n\') and (proprietario_id is not null or endereco_id is not null))  order by id')
     #     lote = cur.fetchall()
     #     if len(lote) > 0:
-    #         print('--------REGRA LOTE INVALIDA - Lote Ocupado e com dados de proprietario ou de endereço --------')
+    #         print('--------REGRA LOTE INVALIDA - Lote Ocupado e com dados de proprietario ou de endereco --------')
     #         for l in lote:
     # #             print('Problema no lote:' + str(l[0]) +', '+str(l[1])+'-'+str(l[2])+'-'+str(l[3]))
     #             print(str(l[0]))
     #     else:
-    #         print('---------REGRA LOTE VALIDO - Lotes ocupados desviculados de proprietario e de endereço!---------')
+    #         print('---------REGRA LOTE VALIDO - Lotes ocupados desviculados de proprietario e de endereco!---------')
 
     #     print('-----------------------------------')
 
@@ -148,11 +148,11 @@ def validacoes_pos_carga(cur):
     #     'select id from dado_novo.lote where ((vago=\'s\') and (proprietario_id is null or endereco_id is null)) order by id')
     # lote = cur.fetchall()
     # if len(lote) > 0:
-    #     print('--------REGRA LOTE INVALIDA - Lote vago e sem dados de proprietario e/ou endereço --------')
+    #     print('--------REGRA LOTE INVALIDA - Lote vago e sem dados de proprietario e/ou endereco --------')
     #     for l in lote:
     #         print('Problema no lote:' + str(l[0]))
     # else:
-    #     print('---------REGRA LOTE VALIDO - lotes vagos com endereços e proprietarios! ---------')
+    #     print('---------REGRA LOTE VALIDO - lotes vagos com enderecos e proprietarios! ---------')
     #     #print(cur.fetchall())
 
     # print('-----------------------------------')
@@ -193,7 +193,7 @@ def validacoes_pos_carga(cur):
         print('-REGRA UNIDADE IMOBILIARIA INVALIDA -- Unidades sem Cobertura ')
         for u in unidade_sem_cobertura:
             inscri = str(u[1])+'-'+str(u[2])+'-'+str(u[3])
-            print('Problema na unidade: ' + str(u[0])+' Inscrição: '+inscri)
+            print('Problema na unidade: ' + str(u[0])+' Inscricao: '+inscri)
     else:
         print('-REGRA UNIDADE IMOBILIARIA VALIDA -- Nenhuma Unidade sem cobertura')
     print('-----------------------------------')
@@ -210,7 +210,7 @@ def validacoes_pos_carga(cur):
         print('---------REGRA EIXO VALIDA -> logradouro nao identificado ---------')
     print('-----------------------------------')
 
-    # Regra Endereço e Logradouro
+    # Regra Endereco e Logradouro
     cur.execute('select id from dado_novo.endereco where logradouro is null')
     endereco = cur.fetchall()
     if len(endereco) > 0:

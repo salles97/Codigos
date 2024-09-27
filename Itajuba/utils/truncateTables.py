@@ -1,11 +1,13 @@
 def truncar_tabelas_dado_novo(con, cur):
     """
-    Função para limpar (truncar) as tabelas do esquema dado_novo que são populadas
-    pela função de carregar lotes e dependências.
+    Funcao para limpar (truncar) as tabelas do esquema dado_novo que sao populadas
+    pela funcao de carregar lotes e dependências.
     
-    :param cur: Cursor da conexão com o banco de dados
+    :param cur: Cursor da conexao com o banco de dados
     """
     tabelas = [
+        'eixo',
+        'logradouro',
         'lote',
         'unidade_imobiliaria',
         'testada',
@@ -28,9 +30,9 @@ def truncar_tabelas_dado_novo(con, cur):
 def truncar_tabelas_to_review(con, cur):
     
     """
-    Função para limpar (truncar) as tabelas do esquema to_review.
+    Funcao para limpar (truncar) as tabelas do esquema to_review.
     
-    :param cur: Cursor da conexão com o banco de dados
+    :param cur: Cursor da conexao com o banco de dados
     """
     tabelas = [
         'lote',
@@ -40,7 +42,7 @@ def truncar_tabelas_to_review(con, cur):
     
     for tabela in tabelas:
         try:
-            cur.execute(f"TRUNCATE TABLE to_review.{tabela} CASCADE")
+            cur.execute(f"TRUNCATE TABLE to_review.{tabela} RESTART IDENTITY CASCADE")
             print(f"Tabela to_review.{tabela} foi truncada com sucesso.")
         except Exception as e:
             print(f"Erro ao truncar a tabela to_review.{tabela}: {str(e)}")

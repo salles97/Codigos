@@ -30,8 +30,8 @@ def carregar_endereco(reduzido, nome, cur, arquivo_log, log):
                     # cur.execute("INSERT INTO dado_novo.endereco (id, bairro_cod, numero, complemento) "
                     #             "VALUES (%s, %s, %s, %s)",
                     #             (reduzido, endCopia['bairro_cod'], endCopia['numero'], endCopia['complemento']))
-                    # arquivo_log.write(f'Logradouro do endereco do imovel {reduzido} não foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}\n')
-                    log.add_logradouro_nao_mapeado(f'Logradouro do endereco do imovel {nome} não foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}')
+                    # arquivo_log.write(f'Logradouro do endereco do imovel {reduzido} nao foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}\n')
+                    log.add_logradouro_nao_mapeado(f'Logradouro do endereco do imovel {nome} nao foi encontrado. Logradouro no cadastro da prefeitura: cod {endCopia["logradouro_cod"]}, nome {endCopia["logradouro"]}')
                     return False
                 return True
             else:
@@ -39,6 +39,6 @@ def carregar_endereco(reduzido, nome, cur, arquivo_log, log):
 
     except Exception as e:
         erro_detalhado = traceback.format_exc()
-        arquivo_log.write(f'Erro ao consultar e cadastrar endereço: {e}\n')
+        arquivo_log.write(f'Erro ao consultar e cadastrar endereco: {e}\n')
         arquivo_log.write(f'Traceback:\n{erro_detalhado}\n')
         return False

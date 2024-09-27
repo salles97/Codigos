@@ -32,13 +32,13 @@ class Logs:
             f.write("\nMensagens sobre mudanca na area:\n")
             for message in self.alteracaoArea:
                 f.write(message + '\n')
-            f.write("\nRótulos não encontrados:\n")
+            f.write("\nRotulos nao encontrados:\n")
             for message in self.rotuloNaoIdentificado:
                 f.write(message + '\n')
             f.write("\nIdentificados sem coberturas:\n")
             for message in self.semCoberturas:
                 f.write(message + '\n')
-            f.write("\nLogradouros não mapeados:\n")
+            f.write("\nLogradouros nao mapeados:\n")
             for message in self.logradourosNaoMapeados:
                 f.write(message + '\n')
             f.write("\nNovas unidades:\n")

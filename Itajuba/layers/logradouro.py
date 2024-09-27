@@ -1,7 +1,7 @@
 import pandas as pd
 
 def logradouros(cur):
-    # Busca logradouros que possam causar conflitos de interseção
+    # Busca logradouros que possam causar conflitos de intersecao
     cur.execute('''
         SELECT l.geom, l.name, ll.nome 
         FROM public.logradouro AS l
@@ -12,10 +12,10 @@ def logradouros(cur):
     intersect_logradouro = cur.fetchall()
     
     if intersect_logradouro:
-        print('------------ Logradouros que interseccionam geometrias já existentes')
+        print('------------ Logradouros que interseccionam geometrias já existentes, CORRIJA ANTES DE PROSSEGUIR')
         for conflict in intersect_logradouro:
             print(f'{conflict[1]} intersecciona com {conflict[2]}')
-        return  # Retorna para evitar continuar se houver conflitos
+        # return  # Retorna para evitar continuar se houver conflitos
 
     # Obtém os logradouros da tabela public
     cur.execute('SELECT ST_AsText(geom) as geom, name FROM public.logradouro')
@@ -28,13 +28,13 @@ def logradouros(cur):
     suffixes_to_remove = [' (1)', ' (2)', ' (3)', ' (4)', ' (5)', ' (6)', ' (7)']
     df['name'] = df['name'].apply(lambda x: x[:-4] if x.endswith(tuple(suffixes_to_remove)) else x)
 
-    # Remove espaços em branco no final e normaliza para letras maiúsculas
+    # Remove espacos em branco no final e normaliza para letras maiúsculas
     df['name'] = df['name'].str.strip().str.upper()
 
     # Remove a substring de geometria
     df['geom'] = df['geom'].str.replace('MULTILINESTRING\(', '', regex=True).str[:-1]
 
-    # Itera sobre cada logradouro e executa as operações necessárias
+    # Itera sobre cada logradouro e executa as operacões necessárias
     for index, row in df.iterrows():
          # Caso o nome seja 'RUA SEM NOME', insira diretamente sem buscar em dado_antigo
         if row['name'].upper() == 'RUA SEM NOME':
@@ -61,26 +61,27 @@ def logradouros(cur):
             #  cur.execute('update dado_novo.logradouro set geom=%s where id=%s',
             #             ('SRID=31983;'+recset[0][1][:-1]+','+str(row['geom'])+')', str(recset[0][0])))
         else:
-            # Se não estiver cadastrado, busca no dado_antigo (concatenando tipo e nome)
+            # Se nao estiver cadastrado, busca no dado_antigo (concatenando tipo e nome)
             cur.execute('''
                 SELECT id, nome, cod
                 FROM dado_antigo.logradouro
                 WHERE CONCAT(tipo, ' ', nome) = %s
             ''', (logradouro_nome,))
             end = cur.fetchall()
-
+            # print(end)
             if end:
-                # Insere o logradouro no dado_novo com o código do dado_antigo
+                # Insere o logradouro no dado_novo com o codigo do dado_antigo
                 cur.execute('''
                     INSERT INTO dado_novo.logradouro (geom, nome, cod)
                     VALUES (%s, %s, %s)
                 ''', (f'SRID=31983;MULTILINESTRING({row["geom"]})', row['name'], end[0][2]))
+                # print('inseriu o logradouro \n')
             else:
-                # Insere com código NULL se não encontrado em dado_antigo
+                # Insere com codigo NULL se nao encontrado em dado_antigo
                 cur.execute('''
                     INSERT INTO dado_novo.logradouro (geom, nome, cod)
                     VALUES (%s, %s, NULL)
                 ''', (f'SRID=31983;MULTILINESTRING({row["geom"]})', row['name']))
-                print(f'{row["name"]} não encontrado no dado_antigo. Inserido com código NULL.')
+                print(f'{row["name"]} nao encontrado no dado_antigo. Inserido com codigo NULL.')
 
     print("------- Fim dos Logradouros -------")

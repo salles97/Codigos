@@ -13,7 +13,7 @@ def cadastra_testada(reduzido, cur, arquivo_log):
         cur.execute(
             "SELECT logradouro_cod FROM dado_antigo.endereco WHERE id = %s", (reduzido,))
         logradouro_cod = cur.fetchone()[0]
-        # arquivo_log.write(f"Código do logradouro para o lote {reduzido}: {logradouro_cod}\n")
+        # arquivo_log.write(f"Codigo do logradouro para o lote {reduzido}: {logradouro_cod}\n")
 
         # Consulta para obter o logradouro_id correspondente ao logradouro_cod
         cur.execute(

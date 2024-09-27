@@ -10,22 +10,22 @@
 #     Carregas as geometrias das coberturas e/ou piscinas
 #     Cadastra os relacionamentos de unidades e coberturas
 #
-# Possui coberturas e não possui unidades?
+# Possui coberturas e nao possui unidades?
 #     Cria unidade em dado_novo copiando info do lote
 #     Carregas as geometrias das coberturas e/ou piscinas
 #     Cadastra os relacionamentos de unidades e coberturas
 #
 #     Lote é predial ?
-#           Não atualiza área construida das unidades
-#     Lote não predial?
+#           Nao atualiza área construida das unidades
+#     Lote nao predial?
 #           Atualiza a área construida do lote
 #
-# Não possue coberturas e possui unidades?
+# Nao possue coberturas e possui unidades?
 #     Cadastra as unidades do lote em dado_novo
 #
 #
-# Não possui coberturas e não possui unidades?
-#     Não faz nada
+# Nao possui coberturas e nao possui unidades?
+#     Nao faz nada
 
 
 def unidades_imobiliarias(cur):
@@ -50,23 +50,23 @@ def unidades_imobiliarias(cur):
 #     Cadastra os relacionamentos de unidades e coberturas
 #       
 #     Lote é predial ?
-#           Não atualiza área construida das unidades
-#     Lote não predial?
+#           Nao atualiza área construida das unidades
+#     Lote nao predial?
 #           Atualiza a área construida do lote
 # 
-# Possui coberturas e não possui unidades?
+# Possui coberturas e nao possui unidades?
 #     Cria unidade em dado_novo copiando info do lote
 #     Carregas as geometrias das coberturas e/ou piscinas
 #     Cadastra os relacionamentos de unidades e coberturas
 #
 #   
 #
-# Não possue coberturas e possui unidades?
+# Nao possue coberturas e possui unidades?
 #     Cadastra as unidades do lote em dado_novo
 #
 #
-# Não possui coberturas e não possui unidades?
-#     Não faz nada
+# Nao possui coberturas e nao possui unidades?
+#     Nao faz nada
 
 
 def unidades_imobiliarias(cur):
@@ -91,7 +91,7 @@ def unidades_imobiliarias(cur):
             bfId = []
             acId = []
 
-            # predial com uma cobertura só
+            # predial com uma cobertura so
             if (len(areaCoberta) + len(benfeitoria)) == 1:
                 for ac in areaCoberta:
                     cur.execute(
@@ -175,9 +175,9 @@ def unidades_imobiliarias(cur):
                         (ui[0], ui[1], ui[2], ui[3], ui[4], ui[5], ui[6], ui[7]))
                     arquivo.write(str(ui[0]) + " - ")
 
-                print("Tem q tratar na mão kkkk")
+                print("Tem q tratar na mao kkkk")
 
-        else:  # entra aqui se o lote não for predial
+        else:  # entra aqui se o lote nao for predial
             if l[45] == 'n':  # se nao for vago
 
                 cur.execute(
@@ -261,10 +261,10 @@ def unidades_imobiliarias(cur):
                                 enderecoAnt = cur.fetchall()
                                 if len(enderecoAnt) > 0:
                                     print(
-                                        'Endereço em dado_novo sem cadastro ' + str(ui[7]))
+                                        'Endereco em dado_novo sem cadastro ' + str(ui[7]))
                                 else:
                                     print(
-                                        'Endereço nao encontrado em lugar algum '+str(ui[7]))
+                                        'Endereco nao encontrado em lugar algum '+str(ui[7]))
 
             # se for vago
 
@@ -288,9 +288,9 @@ def unidades_imobiliarias(cur):
 #                             'select * from dado_antigo.endereco where id=' + str(ui[7]))
 #                             enderecoAnt = cur.fetchall()
 #                             if len(enderecoAnt) > 0:
-#                                 print('Endereço em dado_novo sem cadastro '+ str(ui[7]))
+#                                 print('Endereco em dado_novo sem cadastro '+ str(ui[7]))
 #                             else:
-#                                 print('Endereço nao encontrado em lugar algum '+str(ui[7]))
+#                                 print('Endereco nao encontrado em lugar algum '+str(ui[7]))
                 else:
                     cur.execute(
                         "select endereco_id,proprietario_id from dado_antigo.lote where setor_cod = " + str(
@@ -310,10 +310,10 @@ def unidades_imobiliarias(cur):
                             'select * from dado_antigo.endereco where id=' + str(endprop[0][0]))
                         enderecoAnt = cur.fetchall()
                         if len(enderecoAnt) > 0:
-                            print('Endereço em dado_novo sem cadastro ' +
+                            print('Endereco em dado_novo sem cadastro ' +
                                   str(endprop[0][0]))
                         else:
                             print(
-                                'Endereço nao encontrado em lugar algum ' + str(endprop[0][0]))
+                                'Endereco nao encontrado em lugar algum ' + str(endprop[0][0]))
 
     arquivo.close()

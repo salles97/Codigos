@@ -5,14 +5,14 @@ def enderecos(cur):
 
     # Iteramos através de cada registro recebido
     for rec in recset:
-        # rec[3] corresponde ao nome do lote, rotulagem informada pela equipe de vetorização
+        # rec[3] corresponde ao nome do lote, rotulagem informada pela equipe de vetorizacao
         name = rec[3]
 
-        # Se o nome contiver algum dos caracteres '[', ']', '/' ou 'Property', apresenta adversidade identificada pela vetorização.
+        # Se o nome contiver algum dos caracteres '[', ']', '/' ou 'Property', apresenta adversidade identificada pela vetorizacao.
         if any(char in name for char in ['[', ']', '/', 'Property']):
             print(f"Lote sem info: {name}")
         else:
-            # Se o nome contiver um '(' removemos tudo após ele
+            # Se o nome contiver um '(' removemos tudo apos ele
             if '(' in name:
                 name = name.split('(')[0]
 
@@ -23,7 +23,7 @@ def enderecos(cur):
                 if inscri[2] in ['AV', 'AI', 'APP']:
                     print('Área Verde ou Institucional')
                 else:
-                    # Usamos UNION para selecionar os registros únicos de duas tabelas, onde algumas das condições de pesquisa correspondem ao nome
+                    # Usamos UNION para selecionar os registros únicos de duas tabelas, onde algumas das condicões de pesquisa correspondem ao nome
                     cur.execute("""
                                 SELECT endereco_id FROM dado_antigo.unidade_imobiliaria WHERE setor_cod = %s AND quadra_cod = %s AND lote_cod = %s
                                 UNION
@@ -34,17 +34,17 @@ def enderecos(cur):
                     # Se encontramos algum resultado, iteramos através deles
                     if len(recset2) > 0:
                         for rec2 in recset2:
-                            # Para cada resultado, procuramos o endereço correspondente
+                            # Para cada resultado, procuramos o endereco correspondente
                             cur.execute(
                                 'select * from dado_antigo.endereco where id=%s', (rec2[0],))
                             endereco = cur.fetchall()
-                            # Se o endereço for encontrado, procuramos o logradouro correspondente
+                            # Se o endereco for encontrado, procuramos o logradouro correspondente
                             if len(endereco) > 0:
                                 cur.execute(
                                     'select id from dado_novo.logradouro where cod = %s', (endereco[0][2],))
                                 log = cur.fetchall()
 
-                                # Se o logradouro for encontrado, inserimos um novo endereço na base de dados, caso contrário, imprimimos uma mensagem
+                                # Se o logradouro for encontrado, inserimos um novo endereco na base de dados, caso contrário, imprimimos uma mensagem
                                 if len(log) > 0:
                                     cur.execute(
                                         'INSERT INTO dado_novo.endereco(id, logradouro, bairro, numero, complemento,\
@@ -61,12 +61,12 @@ def enderecos(cur):
                                     print(
                                         f"Logradouro sem geometria. cod: {endereco[0][2]} e nome {endereco[0][1]} lote: {inscri[0]}-{inscri[1]}-{inscri[2]}")
                             else:
-                                # Se o endereço não for encontrado, atualizamos o nome na tabela lote
+                                # Se o endereco nao for encontrado, atualizamos o nome na tabela lote
                                 cur.execute(
                                     "update public.lote set name=%s \
                                     where name=%s", (f'{inscri[0]}-{inscri[1]}-{inscri[2]}-End', f'{inscri[0]}-{inscri[1]}-{inscri[2]}'))
                                 print(
-                                    f"Endereço do lote {inscri[0]}-{inscri[1]}-{inscri[2]} não encontrado ")
+                                    f"Endereco do lote {inscri[0]}-{inscri[1]}-{inscri[2]} nao encontrado ")
 
                     else:
                         # Se nenhuma correspondência for encontrada na consulta UNION, imprimimos uma mensagem

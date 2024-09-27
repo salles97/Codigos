@@ -4,19 +4,19 @@ def cadastra_lote(reduzido, vago, nome, cur, arquivo_log, log, novo_setor=None, 
     cur.execute("SELECT * FROM dado_antigo.lote WHERE id = %s", (reduzido,))
     lote = cur.fetchone()
     if lote is None:
-        raise Exception('Lote não encontrado em dado_antigo.lote')
+        raise Exception('Lote nao encontrado em dado_antigo.lote')
 
 #   Vai buscar a geometria e a area dela
     cur.execute(
         "SELECT geom, st_area(geom) as area FROM public.lote WHERE name = %s", (nome,))
     publicLote = cur.fetchone()
     if publicLote is None:
-        raise Exception('Geom não encontrado em public.lote')
+        raise Exception('Geom nao encontrado em public.lote')
 
     area = publicLote['area']
     geom_lote = publicLote['geom']
     if area is None:
-        raise Exception('Area da Geom não encontrado em public.lote')
+        raise Exception('Area da Geom nao encontrado em public.lote')
 
     try:
         if novo_setor and nova_quadra and novo_lote:

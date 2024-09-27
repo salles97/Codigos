@@ -3,7 +3,7 @@ import os
 
 def adversidade_lote(cur, lote, adv, arquivo_log, setor_carga, setor=None, quadra=None, lote_cod=None, novo_setor=None, nova_quadra=None, novo_lote=None, lotes_remembramento=None):
     # Certifique-se de acessar o valor da coluna do lote
-    name = lote['name']  # Usa um valor padrão se 'name' não estiver presente
+    name = lote['name']  # Usa um valor padrao se 'name' nao estiver presente
 
     # Determinar o tipo de adversidade
     tipoAdv = {
@@ -16,10 +16,10 @@ def adversidade_lote(cur, lote, adv, arquivo_log, setor_carga, setor=None, quadr
     }.get(adv, None)
 
     # if tipoAdv is None:
-    #     arquivo_log.write(f'Adversidade não identificada, rótulo: {name}\n')
+    #     arquivo_log.write(f'Adversidade nao identificada, rotulo: {name}\n')
     #     return
 
-    # Criar o arquivo de adversidades no diretório atual
+    # Criar o arquivo de adversidades no diretorio atual
     arquivo_adversidades_path = f'relatorio_{setor_carga}_adversidades.txt'
     
     # Abrir o arquivo de adversidades usando um context manager
@@ -32,7 +32,7 @@ def adversidade_lote(cur, lote, adv, arquivo_log, setor_carga, setor=None, quadr
         lote = cur.fetchone()
         
         if lote is None:
-            arquivo_log.write(f'Lote não encontrado na base de dados: {name}\n')
+            arquivo_log.write(f'Lote nao encontrado na base de dados: {name}\n')
             return
         
         # Executar consultas para obter dados relacionados
