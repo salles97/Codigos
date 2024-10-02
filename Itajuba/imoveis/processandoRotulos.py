@@ -1,5 +1,6 @@
 import re
 import psycopg2
+from imoveis.proprietarios import cadastrar_proprietario
 from imoveis.adversidade_lote import adversidade_lote
 from imoveis.area_especial import cadastrar_area_especial_lote
 from imoveis.cadastra_lote import cadastra_lote
@@ -16,6 +17,11 @@ from utils.logs import Logs
 log = Logs()
 def carregar_lote_e_dependencias(con, cur, setor_carga):
 
+    cur.execute("SELECT ST_GeometryType(geom) FROM public.area_coberta")
+    geometria = cur.fetchone()
+    if geometria  == 'MULTIPOLYGON':
+            raise Exception("Erro: A geometria da cobertura é do tipo Multipolygon, ",{geometria} )
+            
         # Criar objeto de log
     with open(f'relatorio_{setor_carga}_carga.txt', 'w') as arquivo_log:
         arquivo_log.write("Iniciando processamento de lotes\n")
@@ -32,7 +38,7 @@ def carregar_lote_e_dependencias(con, cur, setor_carga):
                     # arquivo_log.write(f"Lote Atual: {lote.get('name')}\n")
 
                     # Atualizar regex para capturar o padrao com múltiplas geometrias
-                    padrao_valido = r"^(\d{1,4})-(\d{1,4})-(\d{1,4})(?:-\w*)?(?:\((\d+)\))?$"
+                    padrao_valido = r"^(\d{1,4})-(\d{1,4})-(\d{1,4})\s*(?:\((\d+)\))?$"
                     padrao_nao_identificado = r"^(\d{1,4})-(\d{1,4})-L_s\.cad \(\d+\)$"
                     # padrao_remembramento = r"^\d{1,4}-\d{1,4}-(\d{1,4}(/\d{1,4})+)-R$"                    # Padrao atualizado para capturar setor, quadra e lotes remembrados
                     # padrao_remembramento = r"^(\d{1,4})-(\d{1,4})-(\d{1,4}(/\d{1,4})+)-R$"
@@ -167,6 +173,9 @@ def processar_lote(cur, con, arquivo_log, setor_carga, lote, nome,
 
         reduzido = infoLote['id']
 
+
+        cadastrar_proprietario(reduzido, infoLote['proprietario_id'], cur, arquivo_log);
+
         # Validacao da área do lote
         if lote['st_area'] > infoLote['area_terreno'] * 1.3 or lote['st_area'] < infoLote['area_terreno'] * 0.7:
             # arquivo_log.write(f"Lote {reduzido} sofreu mudanca na area, de (registro): {infoLote['area_terreno']} para: {lote['st_area']} (area geometria)\n")
@@ -234,7 +243,7 @@ def processar_lote(cur, con, arquivo_log, setor_carga, lote, nome,
             return   
 
         # Advsersidade onde nao é possível associar cada cobertura a cada imovel
-        elif unidades > 1 and cobertura_geom is not None and len(cobertura_geom) > 1 and infoLote['predial'] == 'Nao':
+        elif unidades > 1 and cobertura_geom is not None and len(cobertura_geom) > 1 and infoLote['predial'] == 'Não':
             adversidade_lote(cur, lote, 'C', arquivo_log, setor_carga, setor=setor_cod, quadra=quadra_cod, lote_cod=lote_cod)
             return
 

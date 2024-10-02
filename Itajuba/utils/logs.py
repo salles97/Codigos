@@ -29,21 +29,21 @@ class Logs:
 
     def write_to_file(self, file_path):
         with open(file_path, 'a') as f: 
-            f.write("\nMensagens sobre mudanca na area:\n")
+            f.write("\Imóveis que sofreram mudanca na area:\n")
             for message in self.alteracaoArea:
                 f.write(message + '\n')
             f.write("\nRotulos nao encontrados:\n")
             for message in self.rotuloNaoIdentificado:
                 f.write(message + '\n')
-            f.write("\nIdentificados sem coberturas:\n")
+            f.write("\nImoveis 'CONSTRUIDOS' mas sem coberturas vetorizadas:\n")
             for message in self.semCoberturas:
                 f.write(message + '\n')
-            f.write("\nLogradouros nao mapeados:\n")
+            f.write("\nLogradouros nao mapeados na vetorização:\n")
             for message in self.logradourosNaoMapeados:
                 f.write(message + '\n')
-            f.write("\nNovas unidades:\n")
+            f.write("\nImoveis onde identificou Novas unidades (Imoveis Vagos com cobertura vetorizada):\n")
             for message in self.novaUnidade:
                 f.write(message + '\n')
-            f.write("\nQuadras atualizadas:\n")
+            f.write("\nImoveis que tiveram a inscricao cadastral atualizada:\n")
             for message in self.quadraAtualizada:
                 f.write(message + '\n')
