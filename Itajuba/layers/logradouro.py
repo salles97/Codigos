@@ -58,8 +58,7 @@ def logradouros(cur):
             # Atualiza a geometria concatenando com a geometria existente
             new_geom = f'{recset[0][1][:-1]},{row["geom"]})'
             # cur.execute('UPDATE dado_novo.logradouro SET geom = %s WHERE id = %s', (new_geom, recset[0][0]))
-            print(f'update dado_novo.logradouro set geom=%s where id=%s',
-                        ('SRID=31983;'+recset[0][1][:-1]+','+str(row['geom'])+')', str(recset[0][0])))
+           
             cur.execute('update dado_novo.logradouro set geom=%s where id=%s',
                         ('SRID=31983;'+recset[0][1][:-1]+','+str(row['geom'])+')', str(recset[0][0])))
             

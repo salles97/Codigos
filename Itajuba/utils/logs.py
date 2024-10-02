@@ -29,7 +29,7 @@ class Logs:
 
     def write_to_file(self, file_path):
         with open(file_path, 'a') as f: 
-            f.write("\Imóveis que sofreram mudanca na area:\n")
+            f.write("\nImoveis que sofreram mudanca na area:\n")
             for message in self.alteracaoArea:
                 f.write(message + '\n')
             f.write("\nRotulos nao encontrados:\n")

@@ -15,7 +15,8 @@ def truncar_tabelas_dado_novo(con, cur):
         'area_especial',
         'benfeitoria',
         'endereco',
-        'inconsistencias'
+        'inconsistencias',
+        'proprietario'
     ]
     
     for tabela in tabelas:
