@@ -38,7 +38,7 @@ def carregar_lote_e_dependencias(con, cur, setor_carga):
                     # arquivo_log.write(f"Lote Atual: {lote.get('name')}\n")
 
                     # Atualizar regex para capturar o padrao com múltiplas geometrias
-                    padrao_valido = r"^(\d{1,4})-(\d{1,4})-(\d{1,4})\s*(?:\((\d+)\))?$"
+                    padrao_valido = r"^(\d{1,4})-(\d{1,4})-(\d{1,4})(-(AV|AI|APP|AR)|\s*(?:\((\d+)\)))?$"
                     padrao_nao_identificado = r"^(\d{1,4})-(\d{1,4})-L_s\.cad \(\d+\)$"
                     # padrao_remembramento = r"^\d{1,4}-\d{1,4}-(\d{1,4}(/\d{1,4})+)-R$"                    # Padrao atualizado para capturar setor, quadra e lotes remembrados
                     # padrao_remembramento = r"^(\d{1,4})-(\d{1,4})-(\d{1,4}(/\d{1,4})+)-R$"
