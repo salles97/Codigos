@@ -1,3 +1,4 @@
+
 --- Fazer com que apos a insercao do lote de maneira correta em dado_novo ou em adversidade,
  seja removido ele e suas dependencias do schema public
     -- Feito -> Inserido a funcao clear_public_geoms(cur)
