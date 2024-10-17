@@ -1,0 +1,143 @@
+Iniciando processamento de lotes
+Total de lotes encontrados: 374
+
+
+Imoveis que sofreram mudanca na area:
+Lote 11-24-249 sofreu mudanca na area, de (registro): 210.0 para: 544.4344292644068 (area geometria)
+Lote 11-17-306 sofreu mudanca na area, de (registro): 1.31 para: 693.0040395858532 (area geometria)
+Lote 11-17-560 sofreu mudanca na area, de (registro): 112.82 para: 152.74948782859974 (area geometria)
+Lote 11-17-547 sofreu mudanca na area, de (registro): 166.92 para: 293.3375221065893 (area geometria)
+Lote 11-17-535 sofreu mudanca na area, de (registro): 990.0 para: 2221.556420878955 (area geometria)
+Lote 11-27-103 sofreu mudanca na area, de (registro): 457.5 para: 298.0498792749838 (area geometria)
+Lote 11-27-201 sofreu mudanca na area, de (registro): 560.0 para: 772.9626173204259 (area geometria)
+Lote 11-20-233 sofreu mudanca na area, de (registro): 610.0 para: 296.01677125490266 (area geometria)
+Lote 11-15-262 sofreu mudanca na area, de (registro): 334.2 para: 464.3781772552226 (area geometria)
+Lote 11-14-330 sofreu mudanca na area, de (registro): 518.0 para: 308.4561512647642 (area geometria)
+Lote 11-11-273 sofreu mudanca na area, de (registro): 274.18 para: 190.4362312799508 (area geometria)
+Lote 11-10-161 sofreu mudanca na area, de (registro): 406.8 para: 958.7765985053195 (area geometria)
+Lote 11-31-460 sofreu mudanca na area, de (registro): 300.0 para: 543.7229368409115 (area geometria)
+Lote 11-06-247 sofreu mudanca na area, de (registro): 227.5 para: 303.711714059856 (area geometria)
+Lote 11-04-68 sofreu mudanca na area, de (registro): 294.2 para: 405.0373517594942 (area geometria)
+Lote 11-03-136 sofreu mudanca na area, de (registro): 487.24 para: 666.8987625476012 (area geometria)
+Lote 11-02-92 sofreu mudanca na area, de (registro): 330.49 para: 454.9667476957392 (area geometria)
+Lote 11-01-158 sofreu mudanca na area, de (registro): 400.0 para: 579.852143097559 (area geometria)
+Lote 11-01-258 sofreu mudanca na area, de (registro): 495.86 para: 305.29138544122867 (area geometria)
+Lote 11-07-419 sofreu mudanca na area, de (registro): 39.14 para: 53.19726280558135 (area geometria)
+Lote 11-29-105 sofreu mudanca na area, de (registro): 375.0 para: 566.2704948063131 (area geometria)
+Lote 11-24-249 sofreu mudanca na area, de (registro): 210.0 para: 544.4344292644068 (area geometria)
+Lote 11-17-306 sofreu mudanca na area, de (registro): 1.31 para: 693.0040395858532 (area geometria)
+Lote 11-17-560 sofreu mudanca na area, de (registro): 112.82 para: 152.74948782859974 (area geometria)
+Lote 11-17-547 sofreu mudanca na area, de (registro): 166.92 para: 293.3375221065893 (area geometria)
+Lote 11-17-535 sofreu mudanca na area, de (registro): 990.0 para: 2221.556420878955 (area geometria)
+Lote 11-27-103 sofreu mudanca na area, de (registro): 457.5 para: 298.0498792749838 (area geometria)
+Lote 11-27-201 sofreu mudanca na area, de (registro): 560.0 para: 772.9626173204259 (area geometria)
+Lote 11-20-233 sofreu mudanca na area, de (registro): 610.0 para: 296.01677125490266 (area geometria)
+Lote 11-15-262 sofreu mudanca na area, de (registro): 334.2 para: 464.3781772552226 (area geometria)
+Lote 11-14-330 sofreu mudanca na area, de (registro): 518.0 para: 308.4561512647642 (area geometria)
+Lote 11-11-273 sofreu mudanca na area, de (registro): 274.18 para: 190.4362312799508 (area geometria)
+Lote 11-10-161 sofreu mudanca na area, de (registro): 406.8 para: 958.7765985053195 (area geometria)
+Lote 11-31-460 sofreu mudanca na area, de (registro): 300.0 para: 543.7229368409115 (area geometria)
+Lote 11-06-247 sofreu mudanca na area, de (registro): 227.5 para: 303.711714059856 (area geometria)
+Lote 11-04-68 sofreu mudanca na area, de (registro): 294.2 para: 405.0373517594942 (area geometria)
+Lote 11-03-136 sofreu mudanca na area, de (registro): 487.24 para: 666.8987625476012 (area geometria)
+Lote 11-02-92 sofreu mudanca na area, de (registro): 330.49 para: 454.9667476957392 (area geometria)
+Lote 11-01-158 sofreu mudanca na area, de (registro): 400.0 para: 579.852143097559 (area geometria)
+Lote 11-01-258 sofreu mudanca na area, de (registro): 495.86 para: 305.29138544122867 (area geometria)
+Lote 11-07-419 sofreu mudanca na area, de (registro): 39.14 para: 53.19726280558135 (area geometria)
+Lote 11-29-105 sofreu mudanca na area, de (registro): 375.0 para: 566.2704948063131 (area geometria)
+
+Rotulos nao encontrados:
+
+Imoveis 'CONSTRUIDOS' mas sem coberturas vetorizadas:
+
+Logradouros nao mapeados na vetorização:
+Logradouro do endereco do imovel 11-17-472 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-17-458 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-23-150 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-17-327 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-17-345 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-35 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-246 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-231 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-216 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-168 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-230 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-220 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-20-243 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-20-233 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-20-203 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-19-166 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-19-149 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-18-71 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-83 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-95 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-16-451 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-453 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-427 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-415 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-409 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-403 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-393 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-376 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-380 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-364 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-353 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-13-207 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-200 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-13-800 (antigo 12-01-800) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-460 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1303, nome RUA MARIA CONSOLI
+Logradouro do endereco do imovel 11-31-317 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-410 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-347 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-251 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-01-224 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 159, nome PÇA PROFESSOR MARIO MAIA
+Logradouro do endereco do imovel 11-23-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-31-360 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-159 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-293 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-17-472 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-17-458 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-23-150 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-71 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-83 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-95 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-31-460 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1303, nome RUA MARIA CONSOLI
+Logradouro do endereco do imovel 11-01-224 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 159, nome PÇA PROFESSOR MARIO MAIA
+Logradouro do endereco do imovel 11-23-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+
+Imoveis onde identificou Novas unidades (Imoveis Vagos com cobertura vetorizada):
+O lote 11-24-36 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-25-136 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-22-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-21-94 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-16-61 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-15-143 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-13-174 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-31-158 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-07-146 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-24-36 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-25-136 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-22-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-21-168 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-21-94 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-16-61 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-15-143 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-13-174 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-31-158 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-07-146 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+
+Imoveis que tiveram a inscricao cadastral atualizada:

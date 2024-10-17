@@ -1,42 +1,42 @@
---- Fazer com que após a inserção do lote de maneira correta em dado_novo ou em adversidade,
+--- Fazer com que apos a insercao do lote de maneira correta em dado_novo ou em adversidade,
  seja removido ele e suas dependencias do schema public
-    -- Feito -> Inserido a função clear_public_geoms(cur)
+    -- Feito -> Inserido a funcao clear_public_geoms(cur)
 
 --- Mudar a abertura e commit do cursor, para salvar cada lote que foi correto
     -- Feito 
 
---- Considerar a existencia do lote como multipolygon, quando notificado pela vetorização no rotulo, 
-agrupar em um lote só as duas ou mais geometrias 
+--- Considerar a existencia do lote como multipolygon, quando notificado pela vetorizacao no rotulo, 
+agrupar em um lote so as duas ou mais geometrias 
     -- Feito 
 
---- Atualizar a identificação e tratativa para adversidade de endereço durante a consulta e carga de testadas
+--- Atualizar a identificacao e tratativa para adversidade de endereco durante a consulta e carga de testadas
     -- Feito
 
---- Atualizar a identificação e tratativa para adversidade tipo C durante a carga do lote 
-    -- Se for deixar apenas em to_review e nao carregar a info do lote então não commita os processos feitos pro lote
+--- Atualizar a identificacao e tratativa para adversidade tipo C durante a carga do lote 
+    -- Se for deixar apenas em to_review e nao carregar a info do lote entao nao commita os processos feitos pro lote
     -- Feito 
 
---- Inserir as notificações de erros e possiveis falhas da geomatica em um arquivo automaticamente 
+--- Inserir as notificacões de erros e possiveis falhas da geomatica em um arquivo automaticamente 
     --Feito 
 
 --- AREAS ESPECIAIS 
     -- Quando a area especial é lote tbm e esta no layer de lotes
         --Feito 
-    -- Quando não é lote e esta em outro arquivo/layer
+    -- Quando nao é lote e esta em outro arquivo/layer
         --Feito 
 
 --- Adicionar Mapeamento pra adversidade lote vago (quando tem cobertura e nao tem unidade ou vice e versa)
     -- Feito 
 
 
---- Validação das areas dos lotes (se diferença maior de 30% devolver pra ajuste)
+--- Validacao das areas dos lotes (se diferenca maior de 30% devolver pra ajuste)
     --Feito
 
 --- Inserir a carga para Piscinas como dependencia de carga do lote
     --Feito
 
 
---- Validações
+--- Validacões
     --Feito
 
 

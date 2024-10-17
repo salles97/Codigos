@@ -1,0 +1,446 @@
+Iniciando processamento de lotes
+Total de lotes encontrados: 1410
+
+
+Imoveis que sofreram mudanca na area:
+Lote 11-24-249 sofreu mudanca na area, de (registro): 210.0 para: 544.4344292644068 (area geometria)
+Lote 11-17-306 sofreu mudanca na area, de (registro): 1.31 para: 693.0040395858532 (area geometria)
+Lote 11-17-560 sofreu mudanca na area, de (registro): 112.82 para: 152.74948782859974 (area geometria)
+Lote 11-17-547 sofreu mudanca na area, de (registro): 166.92 para: 293.3375221065893 (area geometria)
+Lote 11-17-535 sofreu mudanca na area, de (registro): 990.0 para: 2221.556420878955 (area geometria)
+Lote 11-27-103 sofreu mudanca na area, de (registro): 457.5 para: 298.0498792749838 (area geometria)
+Lote 11-27-201 sofreu mudanca na area, de (registro): 560.0 para: 772.9626173204259 (area geometria)
+Lote 11-20-233 sofreu mudanca na area, de (registro): 610.0 para: 296.01677125490266 (area geometria)
+Lote 11-15-262 sofreu mudanca na area, de (registro): 334.2 para: 464.3781772552226 (area geometria)
+Lote 11-14-330 sofreu mudanca na area, de (registro): 518.0 para: 308.4561512647642 (area geometria)
+Lote 11-11-273 sofreu mudanca na area, de (registro): 274.18 para: 190.4362312799508 (area geometria)
+Lote 11-10-161 sofreu mudanca na area, de (registro): 406.8 para: 958.7765985053195 (area geometria)
+Lote 11-31-460 sofreu mudanca na area, de (registro): 300.0 para: 543.7229368409115 (area geometria)
+Lote 11-06-247 sofreu mudanca na area, de (registro): 227.5 para: 303.711714059856 (area geometria)
+Lote 11-04-68 sofreu mudanca na area, de (registro): 294.2 para: 405.0373517594942 (area geometria)
+Lote 11-03-136 sofreu mudanca na area, de (registro): 487.24 para: 666.8987625476012 (area geometria)
+Lote 11-02-92 sofreu mudanca na area, de (registro): 330.49 para: 454.9667476957392 (area geometria)
+Lote 11-01-158 sofreu mudanca na area, de (registro): 400.0 para: 579.852143097559 (area geometria)
+Lote 11-01-258 sofreu mudanca na area, de (registro): 495.86 para: 305.29138544122867 (area geometria)
+Lote 11-07-419 sofreu mudanca na area, de (registro): 39.14 para: 53.19726280558135 (area geometria)
+Lote 11-29-105 sofreu mudanca na area, de (registro): 375.0 para: 566.2704948063131 (area geometria)
+Lote 11-24-249 sofreu mudanca na area, de (registro): 210.0 para: 544.4344292644068 (area geometria)
+Lote 11-17-306 sofreu mudanca na area, de (registro): 1.31 para: 693.0040395858532 (area geometria)
+Lote 11-17-560 sofreu mudanca na area, de (registro): 112.82 para: 152.74948782859974 (area geometria)
+Lote 11-17-547 sofreu mudanca na area, de (registro): 166.92 para: 293.3375221065893 (area geometria)
+Lote 11-17-535 sofreu mudanca na area, de (registro): 990.0 para: 2221.556420878955 (area geometria)
+Lote 11-27-103 sofreu mudanca na area, de (registro): 457.5 para: 298.0498792749838 (area geometria)
+Lote 11-27-201 sofreu mudanca na area, de (registro): 560.0 para: 772.9626173204259 (area geometria)
+Lote 11-20-233 sofreu mudanca na area, de (registro): 610.0 para: 296.01677125490266 (area geometria)
+Lote 11-15-262 sofreu mudanca na area, de (registro): 334.2 para: 464.3781772552226 (area geometria)
+Lote 11-14-330 sofreu mudanca na area, de (registro): 518.0 para: 308.4561512647642 (area geometria)
+Lote 11-11-273 sofreu mudanca na area, de (registro): 274.18 para: 190.4362312799508 (area geometria)
+Lote 11-10-161 sofreu mudanca na area, de (registro): 406.8 para: 958.7765985053195 (area geometria)
+Lote 11-31-460 sofreu mudanca na area, de (registro): 300.0 para: 543.7229368409115 (area geometria)
+Lote 11-06-247 sofreu mudanca na area, de (registro): 227.5 para: 303.711714059856 (area geometria)
+Lote 11-04-68 sofreu mudanca na area, de (registro): 294.2 para: 405.0373517594942 (area geometria)
+Lote 11-03-136 sofreu mudanca na area, de (registro): 487.24 para: 666.8987625476012 (area geometria)
+Lote 11-02-92 sofreu mudanca na area, de (registro): 330.49 para: 454.9667476957392 (area geometria)
+Lote 11-01-158 sofreu mudanca na area, de (registro): 400.0 para: 579.852143097559 (area geometria)
+Lote 11-01-258 sofreu mudanca na area, de (registro): 495.86 para: 305.29138544122867 (area geometria)
+Lote 11-07-419 sofreu mudanca na area, de (registro): 39.14 para: 53.19726280558135 (area geometria)
+Lote 11-29-105 sofreu mudanca na area, de (registro): 375.0 para: 566.2704948063131 (area geometria)
+Lote 12-64-442 (antigo 21-01-442) sofreu mudanca na area, de (registro): 194.0 para: 351.06945375910095 (area geometria)
+Lote 12-64-466 (antigo 21-01-466) sofreu mudanca na area, de (registro): 63.25 para: 148.7928426135574 (area geometria)
+Lote 12-64-478 (antigo 21-01-478) sofreu mudanca na area, de (registro): 164.5 para: 99.87693033694717 (area geometria)
+Lote 12-47-15 sofreu mudanca na area, de (registro): 205.5 para: 270.10468621980135 (area geometria)
+Lote 12-01-1230 sofreu mudanca na area, de (registro): 28167.86 para: 4821.492938700375 (area geometria)
+Lote 12-01-1023 sofreu mudanca na area, de (registro): 1152.0 para: 746.6729612225545 (area geometria)
+Lote 12-45-67 sofreu mudanca na area, de (registro): 200.0 para: 491.57182797247555 (area geometria)
+Lote 12-59-140 sofreu mudanca na area, de (registro): 100.0 para: 133.4486978018264 (area geometria)
+Lote 12-41-145 sofreu mudanca na area, de (registro): 923.0 para: 1601.612370982092 (area geometria)
+Lote 12-41-157 sofreu mudanca na area, de (registro): 528.0 para: 316.55829189526435 (area geometria)
+Lote 12-41-1300 sofreu mudanca na area, de (registro): 3252.47 para: 5429.4199647156 (area geometria)
+Lote 12-41-299 sofreu mudanca na area, de (registro): 297.46 para: 151.6732960939978 (area geometria)
+Lote 12-41-300 sofreu mudanca na area, de (registro): 282.15 para: 159.47824230495902 (area geometria)
+Lote 12-41-407 sofreu mudanca na area, de (registro): 150.45 para: 249.3562438432932 (area geometria)
+Lote 12-41-560 sofreu mudanca na area, de (registro): 3958.81 para: 9240.66795566311 (area geometria)
+Lote 12-53-356 sofreu mudanca na area, de (registro): 219.0 para: 111.41155917351989 (area geometria)
+Lote 12-53-251 sofreu mudanca na area, de (registro): 230.0 para: 442.06534269602173 (area geometria)
+Lote 12-53-228 sofreu mudanca na area, de (registro): 115.0 para: 335.21316495441977 (area geometria)
+Lote 12-53-198 sofreu mudanca na area, de (registro): 230.0 para: 356.2610636322536 (area geometria)
+Lote 12-53-112 sofreu mudanca na area, de (registro): 230.0 para: 348.5361980376365 (area geometria)
+Lote 12-53-122 sofreu mudanca na area, de (registro): 230.0 para: 328.5873654507793 (area geometria)
+Lote 12-53-84 sofreu mudanca na area, de (registro): 440.0 para: 737.5736583001296 (area geometria)
+Lote 12-48-152 sofreu mudanca na area, de (registro): 242.5 para: 432.14880235222563 (area geometria)
+Lote 12-48-72 sofreu mudanca na area, de (registro): 70.0 para: 248.38763726721493 (area geometria)
+Lote 12-48-50 sofreu mudanca na area, de (registro): 130.0 para: 195.7760390718719 (area geometria)
+Lote 12-48-500 sofreu mudanca na area, de (registro): 88.93 para: 84368.80743414811 (area geometria)
+Lote 12-29-171 sofreu mudanca na area, de (registro): 225.0 para: 296.50123977586543 (area geometria)
+Lote 12-28-130 sofreu mudanca na area, de (registro): 153.0 para: 217.51512633229328 (area geometria)
+Lote 12-28-33 sofreu mudanca na area, de (registro): 58.5 para: 147.68612682962618 (area geometria)
+Lote 12-28-169 sofreu mudanca na area, de (registro): 609.6 para: 840.1639438834839 (area geometria)
+Lote 12-24-67 sofreu mudanca na area, de (registro): 280.0 para: 402.1554612899443 (area geometria)
+Lote 12-29-484 sofreu mudanca na area, de (registro): 227.0 para: 820.1836360396701 (area geometria)
+Lote 12-27-85 sofreu mudanca na area, de (registro): 95.0 para: 132.74808402643 (area geometria)
+Lote 12-22-277 sofreu mudanca na area, de (registro): 18.5 para: 134.92687918109957 (area geometria)
+Lote 12-22-74 sofreu mudanca na area, de (registro): 150.0 para: 213.4831510917586 (area geometria)
+Lote 12-18-580 sofreu mudanca na area, de (registro): 168.0 para: 246.13347183782366 (area geometria)
+Lote 12-18-630 sofreu mudanca na area, de (registro): 202.0 para: 282.41773956982377 (area geometria)
+Lote 12-18-620 sofreu mudanca na area, de (registro): 200.0 para: 327.49395356838494 (area geometria)
+Lote 12-18-610 sofreu mudanca na area, de (registro): 190.0 para: 392.93290078340743 (area geometria)
+Lote 12-18-270 sofreu mudanca na area, de (registro): 150.89 para: 254.66692990281496 (area geometria)
+Lote 12-18-282 sofreu mudanca na area, de (registro): 375.21 para: 245.15002129917104 (area geometria)
+Lote 12-04-60 sofreu mudanca na area, de (registro): 457.9 para: 234.50150396921708 (area geometria)
+Lote 12-04-70 sofreu mudanca na area, de (registro): 228.0 para: 465.850015749971 (area geometria)
+Lote 12-16-214 (antigo 12-75-214) sofreu mudanca na area, de (registro): 202.0 para: 265.39051193319966 (area geometria)
+Lote 12-05-250 sofreu mudanca na area, de (registro): 369.0 para: 197.4492591837868 (area geometria)
+Lote 12-05-260 sofreu mudanca na area, de (registro): 369.0 para: 201.66108433122068 (area geometria)
+Lote 12-32-313 sofreu mudanca na area, de (registro): 180.0 para: 461.947700048799 (area geometria)
+Lote 12-37-468 sofreu mudanca na area, de (registro): 400.0 para: 192.87514303212558 (area geometria)
+Lote 12-37-280 sofreu mudanca na area, de (registro): 332.5 para: 144.3483679219622 (area geometria)
+Lote 12-37-330 sofreu mudanca na area, de (registro): 220.0 para: 295.7154124959984 (area geometria)
+Lote 12-38-204 sofreu mudanca na area, de (registro): 140.81 para: 205.16775145932056 (area geometria)
+Lote 12-40-343 sofreu mudanca na area, de (registro): 73.36 para: 154.44848697117965 (area geometria)
+Lote 12-40-10 sofreu mudanca na area, de (registro): 546.0 para: 1643.9914301422543 (area geometria)
+Lote 12-40-201 sofreu mudanca na area, de (registro): 87.84 para: 42.99886329765074 (area geometria)
+Lote 12-40-195 sofreu mudanca na area, de (registro): 5881.88 para: 2735.634056164944 (area geometria)
+Lote 12-40-149 sofreu mudanca na area, de (registro): 5217.63 para: 305.67796259913626 (area geometria)
+Lote 12-40-143 sofreu mudanca na area, de (registro): 90.0 para: 178.24420537722852 (area geometria)
+Lote 12-31-71 sofreu mudanca na area, de (registro): 97.85 para: 171.2365406514391 (area geometria)
+Lote 12-35-119 sofreu mudanca na area, de (registro): 156.0 para: 325.67739732904766 (area geometria)
+Lote 12-36-134 sofreu mudanca na area, de (registro): 200.0 para: 346.669714939175 (area geometria)
+Lote 12-49-136 sofreu mudanca na area, de (registro): 252.0 para: 371.99949739936596 (area geometria)
+Lote 12-43-45 sofreu mudanca na area, de (registro): 99.75 para: 157.81729487824504 (area geometria)
+Lote 12-44-339 sofreu mudanca na area, de (registro): 425.11 para: 600.2353744373469 (area geometria)
+Lote 12-60-89 sofreu mudanca na area, de (registro): 200.0 para: 101.4554407264597 (area geometria)
+Lote 12-64-162 sofreu mudanca na area, de (registro): 200.0 para: 321.70611189098753 (area geometria)
+Lote 12-42-564 sofreu mudanca na area, de (registro): 78.87 para: 122.15741089292366 (area geometria)
+Lote 12-64-442 (antigo 21-01-442) sofreu mudanca na area, de (registro): 194.0 para: 351.06945375910095 (area geometria)
+Lote 12-64-466 (antigo 21-01-466) sofreu mudanca na area, de (registro): 63.25 para: 148.7928426135574 (area geometria)
+Lote 12-64-478 (antigo 21-01-478) sofreu mudanca na area, de (registro): 164.5 para: 99.87693033694717 (area geometria)
+Lote 12-47-15 sofreu mudanca na area, de (registro): 205.5 para: 270.10468621980135 (area geometria)
+Lote 12-01-1230 sofreu mudanca na area, de (registro): 28167.86 para: 4821.492938700375 (area geometria)
+Lote 12-01-1023 sofreu mudanca na area, de (registro): 1152.0 para: 746.6729612225545 (area geometria)
+Lote 12-45-67 sofreu mudanca na area, de (registro): 200.0 para: 491.57182797247555 (area geometria)
+Lote 12-59-140 sofreu mudanca na area, de (registro): 100.0 para: 133.4486978018264 (area geometria)
+Lote 12-41-145 sofreu mudanca na area, de (registro): 923.0 para: 1601.612370982092 (area geometria)
+Lote 12-41-157 sofreu mudanca na area, de (registro): 528.0 para: 316.55829189526435 (area geometria)
+Lote 12-41-1300 sofreu mudanca na area, de (registro): 3252.47 para: 5429.4199647156 (area geometria)
+Lote 12-41-299 sofreu mudanca na area, de (registro): 297.46 para: 151.6732960939978 (area geometria)
+Lote 12-41-300 sofreu mudanca na area, de (registro): 282.15 para: 159.47824230495902 (area geometria)
+Lote 12-41-407 sofreu mudanca na area, de (registro): 150.45 para: 249.3562438432932 (area geometria)
+Lote 12-41-560 sofreu mudanca na area, de (registro): 3958.81 para: 9240.66795566311 (area geometria)
+Lote 12-53-356 sofreu mudanca na area, de (registro): 219.0 para: 111.41155917351989 (area geometria)
+Lote 12-53-251 sofreu mudanca na area, de (registro): 230.0 para: 442.06534269602173 (area geometria)
+Lote 12-53-228 sofreu mudanca na area, de (registro): 115.0 para: 335.21316495441977 (area geometria)
+Lote 12-53-198 sofreu mudanca na area, de (registro): 230.0 para: 356.2610636322536 (area geometria)
+Lote 12-53-112 sofreu mudanca na area, de (registro): 230.0 para: 348.5361980376365 (area geometria)
+Lote 12-53-122 sofreu mudanca na area, de (registro): 230.0 para: 328.5873654507793 (area geometria)
+Lote 12-53-84 sofreu mudanca na area, de (registro): 440.0 para: 737.5736583001296 (area geometria)
+Lote 12-48-152 sofreu mudanca na area, de (registro): 242.5 para: 432.14880235222563 (area geometria)
+Lote 12-48-72 sofreu mudanca na area, de (registro): 70.0 para: 248.38763726721493 (area geometria)
+Lote 12-48-50 sofreu mudanca na area, de (registro): 130.0 para: 195.7760390718719 (area geometria)
+Lote 12-48-500 sofreu mudanca na area, de (registro): 88.93 para: 84368.80743414811 (area geometria)
+Lote 12-29-171 sofreu mudanca na area, de (registro): 225.0 para: 296.50123977586543 (area geometria)
+Lote 12-28-130 sofreu mudanca na area, de (registro): 153.0 para: 217.51512633229328 (area geometria)
+Lote 12-28-33 sofreu mudanca na area, de (registro): 58.5 para: 147.68612682962618 (area geometria)
+Lote 12-28-169 sofreu mudanca na area, de (registro): 609.6 para: 840.1639438834839 (area geometria)
+Lote 12-24-67 sofreu mudanca na area, de (registro): 280.0 para: 402.1554612899443 (area geometria)
+Lote 12-29-484 sofreu mudanca na area, de (registro): 227.0 para: 820.1836360396701 (area geometria)
+Lote 12-27-85 sofreu mudanca na area, de (registro): 95.0 para: 132.74808402643 (area geometria)
+Lote 12-22-277 sofreu mudanca na area, de (registro): 18.5 para: 134.92687918109957 (area geometria)
+Lote 12-22-74 sofreu mudanca na area, de (registro): 150.0 para: 213.4831510917586 (area geometria)
+Lote 12-18-580 sofreu mudanca na area, de (registro): 168.0 para: 246.13347183782366 (area geometria)
+Lote 12-18-630 sofreu mudanca na area, de (registro): 202.0 para: 282.41773956982377 (area geometria)
+Lote 12-18-620 sofreu mudanca na area, de (registro): 200.0 para: 327.49395356838494 (area geometria)
+Lote 12-18-610 sofreu mudanca na area, de (registro): 190.0 para: 392.93290078340743 (area geometria)
+Lote 12-18-270 sofreu mudanca na area, de (registro): 150.89 para: 254.66692990281496 (area geometria)
+Lote 12-18-282 sofreu mudanca na area, de (registro): 375.21 para: 245.15002129917104 (area geometria)
+Lote 12-04-60 sofreu mudanca na area, de (registro): 457.9 para: 234.50150396921708 (area geometria)
+Lote 12-04-70 sofreu mudanca na area, de (registro): 228.0 para: 465.850015749971 (area geometria)
+Lote 12-16-214 (antigo 12-75-214) sofreu mudanca na area, de (registro): 202.0 para: 265.39051193319966 (area geometria)
+Lote 12-05-250 sofreu mudanca na area, de (registro): 369.0 para: 197.4492591837868 (area geometria)
+Lote 12-05-260 sofreu mudanca na area, de (registro): 369.0 para: 201.66108433122068 (area geometria)
+Lote 12-32-313 sofreu mudanca na area, de (registro): 180.0 para: 461.947700048799 (area geometria)
+Lote 12-37-468 sofreu mudanca na area, de (registro): 400.0 para: 192.87514303212558 (area geometria)
+Lote 12-37-280 sofreu mudanca na area, de (registro): 332.5 para: 144.3483679219622 (area geometria)
+Lote 12-37-330 sofreu mudanca na area, de (registro): 220.0 para: 295.7154124959984 (area geometria)
+Lote 12-38-204 sofreu mudanca na area, de (registro): 140.81 para: 205.16775145932056 (area geometria)
+Lote 12-40-343 sofreu mudanca na area, de (registro): 73.36 para: 154.44848697117965 (area geometria)
+Lote 12-40-10 sofreu mudanca na area, de (registro): 546.0 para: 1643.9914301422543 (area geometria)
+Lote 12-40-201 sofreu mudanca na area, de (registro): 87.84 para: 42.99886329765074 (area geometria)
+Lote 12-40-195 sofreu mudanca na area, de (registro): 5881.88 para: 2735.634056164944 (area geometria)
+Lote 12-40-149 sofreu mudanca na area, de (registro): 5217.63 para: 305.67796259913626 (area geometria)
+Lote 12-40-143 sofreu mudanca na area, de (registro): 90.0 para: 178.24420537722852 (area geometria)
+Lote 12-31-71 sofreu mudanca na area, de (registro): 97.85 para: 171.2365406514391 (area geometria)
+Lote 12-35-119 sofreu mudanca na area, de (registro): 156.0 para: 325.67739732904766 (area geometria)
+Lote 12-36-134 sofreu mudanca na area, de (registro): 200.0 para: 346.669714939175 (area geometria)
+Lote 12-49-136 sofreu mudanca na area, de (registro): 252.0 para: 371.99949739936596 (area geometria)
+Lote 12-43-45 sofreu mudanca na area, de (registro): 99.75 para: 157.81729487824504 (area geometria)
+Lote 12-44-339 sofreu mudanca na area, de (registro): 425.11 para: 600.2353744373469 (area geometria)
+Lote 12-60-89 sofreu mudanca na area, de (registro): 200.0 para: 101.4554407264597 (area geometria)
+Lote 12-64-162 sofreu mudanca na area, de (registro): 200.0 para: 321.70611189098753 (area geometria)
+Lote 12-42-564 sofreu mudanca na area, de (registro): 78.87 para: 122.15741089292366 (area geometria)
+Lote 12-42-715 sofreu mudanca na area, de (registro): 242.4 para: 89.15462867184222 (area geometria)
+Lote 12-42-464 sofreu mudanca na area, de (registro): 309.55 para: 436.0087068001395 (area geometria)
+Lote 12-42-483 sofreu mudanca na area, de (registro): 186.97 para: 243.09213402500762 (area geometria)
+Lote 12-80-80 sofreu mudanca na area, de (registro): 250.0 para: 128.21683540077677 (area geometria)
+Lote 12-80-75 sofreu mudanca na area, de (registro): 250.0 para: 128.230376797386 (area geometria)
+Lote 12-58-100 sofreu mudanca na area, de (registro): 125.0 para: 251.11364986923363 (area geometria)
+Lote 12-58-155 sofreu mudanca na area, de (registro): 125.0 para: 250.22568822219523 (area geometria)
+Lote 12-58-165 sofreu mudanca na area, de (registro): 250.0 para: 142.53126318552467 (area geometria)
+Lote 12-84-110 sofreu mudanca na area, de (registro): 300.0 para: 593.7980310335131 (area geometria)
+Lote 12-84-90 sofreu mudanca na area, de (registro): 150.0 para: 296.95877460203167 (area geometria)
+Lote 12-81-130 sofreu mudanca na area, de (registro): 146.25 para: 289.36099780664415 (area geometria)
+Lote 12-53-218 sofreu mudanca na area, de (registro): 230.0 para: 793.9503257811809 (area geometria)
+
+Rotulos nao encontrados:
+Rotulo 1066 nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-48-L_s.cad nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-38-267-st nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-38-266-st nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-38-265-st nao se encaixa em nenhum padrao conhecido.
+Rotulo 1066 nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-48-L_s.cad nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-38-267-st nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-38-266-st nao se encaixa em nenhum padrao conhecido.
+Rotulo 12-38-265-st nao se encaixa em nenhum padrao conhecido.
+
+Imoveis 'CONSTRUIDOS' mas sem coberturas vetorizadas:
+
+Logradouros nao mapeados na vetorização:
+Logradouro do endereco do imovel 11-17-472 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-17-458 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-23-150 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-17-327 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-17-345 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-35 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-246 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-231 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-22-216 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-168 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-230 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-21-220 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-20-243 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-20-233 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-20-203 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-19-166 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-19-149 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 76, nome AV. MIMINDA VIANA
+Logradouro do endereco do imovel 11-18-71 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-83 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-95 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-16-451 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-453 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-427 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-415 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-409 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-403 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-393 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-376 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-380 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-364 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-16-353 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-13-207 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-13-200 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 640, nome RUA VICENTE SALES DIAS
+Logradouro do endereco do imovel 11-13-800 (antigo 12-01-800) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-460 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1303, nome RUA MARIA CONSOLI
+Logradouro do endereco do imovel 11-31-317 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-410 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-347 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-221 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-07-251 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-01-224 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 159, nome PÇA PROFESSOR MARIO MAIA
+Logradouro do endereco do imovel 11-23-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-31-360 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-159 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-31-293 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 209, nome RUA ANTONIO CORREA CARDOSO
+Logradouro do endereco do imovel 11-17-472 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-17-458 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-23-150 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-71 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-83 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-18-95 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 11-31-460 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1303, nome RUA MARIA CONSOLI
+Logradouro do endereco do imovel 11-01-224 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 159, nome PÇA PROFESSOR MARIO MAIA
+Logradouro do endereco do imovel 11-23-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+Logradouro do endereco do imovel 12-64-610 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-72-240 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 709, nome ROD ITAJUBA MARIA DA FE
+Logradouro do endereco do imovel 12-41-1300 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1134, nome RUA DOUTOR BASILIO PINTO FILHO
+Logradouro do endereco do imovel 12-41-1258 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 709, nome ROD ITAJUBA MARIA DA FE
+Logradouro do endereco do imovel 12-41-1238 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 709, nome ROD ITAJUBA MARIA DA FE
+Logradouro do endereco do imovel 12-41-1218 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 709, nome ROD ITAJUBA MARIA DA FE
+Logradouro do endereco do imovel 12-24-150 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 375, nome RUA FRANCISCO BENEDITO REZENDE
+Logradouro do endereco do imovel 12-40-455 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1421, nome RUA JOSE BERNARDO FILHO
+Logradouro do endereco do imovel 12-40-449 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1421, nome RUA JOSE BERNARDO FILHO
+Logradouro do endereco do imovel 12-44-293 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-83-60 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1272, nome RUA PROJETADA D - LOTº VILA AMELIA II
+Logradouro do endereco do imovel 12-64-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-64-70 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-42-200 (antigo 12-72-200) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 709, nome ROD ITAJUBA MARIA DA FE
+Logradouro do endereco do imovel 12-64-610 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-41-1300 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1134, nome RUA DOUTOR BASILIO PINTO FILHO
+Logradouro do endereco do imovel 12-24-150 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 375, nome RUA FRANCISCO BENEDITO REZENDE
+Logradouro do endereco do imovel 12-40-455 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1421, nome RUA JOSE BERNARDO FILHO
+Logradouro do endereco do imovel 12-40-449 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1421, nome RUA JOSE BERNARDO FILHO
+Logradouro do endereco do imovel 12-44-293 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-83-60 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1272, nome RUA PROJETADA D - LOTº VILA AMELIA II
+Logradouro do endereco do imovel 12-64-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+Logradouro do endereco do imovel 12-64-70 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 37, nome PÇA DUQUE DE CAXIAS
+
+Imoveis onde identificou Novas unidades (Imoveis Vagos com cobertura vetorizada):
+O lote 11-24-36 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-25-136 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-22-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-21-94 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-16-61 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-15-143 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-13-174 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-31-158 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-07-146 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-24-36 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-25-136 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-22-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-21-168 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-21-94 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-16-61 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-15-143 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-13-174 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-31-158 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 11-07-146 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-01-724 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-01-1230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-01-241 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-59-128 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-59-120 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-10-182 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-03-54 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-41-142 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-41-702 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-41-1178 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-261 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-361 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-198 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-132 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-750 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-48-72 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-48-500 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-29-292 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-28-454 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-28-226 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-18-859 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-18-270 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-06-58 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-04-50 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-05-149 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-73-49 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-76-218 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-76-230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-15-39 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-31-145 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-30-120 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-63-500 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-61-162 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-62-201 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-85-91 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-60-44 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-60-144 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-60-181 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-291 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-281 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-35 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-87 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-01-724 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-01-1230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-01-241 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-59-128 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-59-120 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-10-182 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-03-54 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-41-142 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-41-702 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-41-1178 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-261 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-361 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-198 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-132 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-53-750 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-48-72 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-48-500 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-29-292 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-28-454 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-28-226 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-18-859 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-18-270 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-06-58 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-04-50 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-05-149 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-73-49 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-76-218 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-76-230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-15-39 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-31-145 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-30-120 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-63-500 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-61-162 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-62-201 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-85-91 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-60-44 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-60-144 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-60-181 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-291 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-281 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-35 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-55-87 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-56-43 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-57-60 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-57-25 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-57-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-57-114 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-82-50 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-58-145 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-51-73 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-51-80 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-84-161 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-84-80 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-54-31 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-54-61 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-22-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-67-60 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 12-36-93 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+
+Imoveis que tiveram a inscricao cadastral atualizada:
+Lote 12-64-432 (antigo 21-01-432) atualizado com setor 12, quadra 64 e lote 432
+Lote 12-64-454 (antigo 21-01-454) atualizado com setor 12, quadra 64 e lote 454
+Lote 12-64-465 (antigo 21-01-465) atualizado com setor 12, quadra 64 e lote 465
+Lote 12-64-466 (antigo 21-01-466) atualizado com setor 12, quadra 64 e lote 466
+Lote 12-64-478 (antigo 21-01-478) atualizado com setor 12, quadra 64 e lote 478
+Lote 12-64-485 (antigo 21-01-485) atualizado com setor 12, quadra 64 e lote 485
+Lote 12-64-518 (antigo 21-01-518) atualizado com setor 12, quadra 64 e lote 518
+Lote 12-01-329 (antigo 11-31-329) atualizado com setor 12, quadra 01 e lote 329
+Lote 12-01-50 (antigo 12-13-50) atualizado com setor 12, quadra 01 e lote 50
+Lote 12-17-102 (antigo 12-18-102) atualizado com setor 12, quadra 17 e lote 102
+Lote 12-16-214 (antigo 12-75-214) atualizado com setor 12, quadra 16 e lote 214
+Lote 12-12-187 (antigo 12-09-187) atualizado com setor 12, quadra 12 e lote 187
+Lote 12-83-27 (antigo 12-64-27) atualizado com setor 12, quadra 83 e lote 27
+Lote 12-64-432 (antigo 21-01-432) atualizado com setor 12, quadra 64 e lote 432
+Lote 12-64-454 (antigo 21-01-454) atualizado com setor 12, quadra 64 e lote 454
+Lote 12-64-465 (antigo 21-01-465) atualizado com setor 12, quadra 64 e lote 465
+Lote 12-64-466 (antigo 21-01-466) atualizado com setor 12, quadra 64 e lote 466
+Lote 12-64-478 (antigo 21-01-478) atualizado com setor 12, quadra 64 e lote 478
+Lote 12-64-485 (antigo 21-01-485) atualizado com setor 12, quadra 64 e lote 485
+Lote 12-64-518 (antigo 21-01-518) atualizado com setor 12, quadra 64 e lote 518
+Lote 12-01-329 (antigo 11-31-329) atualizado com setor 12, quadra 01 e lote 329
+Lote 12-01-50 (antigo 12-13-50) atualizado com setor 12, quadra 01 e lote 50
+Lote 12-17-102 (antigo 12-18-102) atualizado com setor 12, quadra 17 e lote 102
+Lote 12-16-214 (antigo 12-75-214) atualizado com setor 12, quadra 16 e lote 214
+Lote 12-12-187 (antigo 12-09-187) atualizado com setor 12, quadra 12 e lote 187
+Lote 12-83-27 (antigo 12-64-27) atualizado com setor 12, quadra 83 e lote 27

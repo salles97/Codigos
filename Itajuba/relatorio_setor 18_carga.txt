@@ -1,0 +1,84 @@
+Iniciando processamento de lotes
+Total de lotes encontrados: 685
+
+
+Imoveis que sofreram mudanca na area:
+Lote 18-33-156 sofreu mudanca na area, de (registro): 434.52 para: 209.78070480440337 (area geometria)
+Lote 18-33-120 sofreu mudanca na area, de (registro): 210.0 para: 302.15807452388265 (area geometria)
+Lote 18-32-17 sofreu mudanca na area, de (registro): 640.8 para: 1061.6355096349662 (area geometria)
+Lote 18-32-29 sofreu mudanca na area, de (registro): 140.0 para: 260.27871551859454 (area geometria)
+Lote 18-32-63 sofreu mudanca na area, de (registro): 230.0 para: 114.1381087374638 (area geometria)
+Lote 18-34-180 sofreu mudanca na area, de (registro): 204.51 para: 124.9877147821405 (area geometria)
+Lote 18-31-210 sofreu mudanca na area, de (registro): 194.0 para: 382.16198257465237 (area geometria)
+Lote 18-30-110 sofreu mudanca na area, de (registro): 151.2 para: 197.49371788033264 (area geometria)
+Lote 18-30-120 sofreu mudanca na area, de (registro): 158.05 para: 238.28191212320712 (area geometria)
+Lote 18-28-252 sofreu mudanca na area, de (registro): 329.5 para: 694.9743820602545 (area geometria)
+Lote 18-25-89 sofreu mudanca na area, de (registro): 114.75 para: 167.4407947724229 (area geometria)
+Lote 18-20-210 sofreu mudanca na area, de (registro): 191.59 para: 249.3100442447203 (area geometria)
+Lote 18-20-115 sofreu mudanca na area, de (registro): 600.0 para: 334.19915146167307 (area geometria)
+Lote 18-20-385 sofreu mudanca na area, de (registro): 1014.0 para: 1988.012359969044 (area geometria)
+Lote 18-21-275 sofreu mudanca na area, de (registro): 329.9 para: 211.06609659591402 (area geometria)
+Lote 18-18-120 sofreu mudanca na area, de (registro): 874.35 para: 498.31558894029826 (area geometria)
+Lote 18-18-105 sofreu mudanca na area, de (registro): 874.35 para: 178.14545146801703 (area geometria)
+Lote 18-18-273 sofreu mudanca na area, de (registro): 845.4 para: 534.3088718765027 (area geometria)
+Lote 18-18-263 sofreu mudanca na area, de (registro): 670.0 para: 294.3696996220865 (area geometria)
+Lote 18-18-299 sofreu mudanca na area, de (registro): 81.55 para: 451.0157339512113 (area geometria)
+Lote 18-18-396 sofreu mudanca na area, de (registro): 815.47 para: 523.9738253512684 (area geometria)
+Lote 18-17-155 sofreu mudanca na area, de (registro): 117.0 para: 57.898604592013385 (area geometria)
+Lote 18-16-132 sofreu mudanca na area, de (registro): 65.0 para: 153.29733159714203 (area geometria)
+Lote 18-16-166 sofreu mudanca na area, de (registro): 144.31 para: 211.1578554638481 (area geometria)
+Lote 18-15-341 sofreu mudanca na area, de (registro): 47.5 para: 84.87563970248618 (area geometria)
+Lote 18-15-401 sofreu mudanca na area, de (registro): 402.05 para: 216.7712714263023 (area geometria)
+Lote 18-15-640 sofreu mudanca na area, de (registro): 118.81 para: 69.2249612303103 (area geometria)
+Lote 18-15-94 sofreu mudanca na area, de (registro): 295.65 para: 425.441853149718 (area geometria)
+Lote 18-14-508 sofreu mudanca na area, de (registro): 223.9 para: 110.8544331244649 (area geometria)
+Lote 18-12-259 sofreu mudanca na area, de (registro): 127.81 para: 82.82857947255671 (area geometria)
+Lote 18-11-120 sofreu mudanca na area, de (registro): 482.66 para: 132.59365959376152 (area geometria)
+Lote 18-11-140 sofreu mudanca na area, de (registro): 159.81 para: 213.01426853133614 (area geometria)
+Lote 18-11-33 sofreu mudanca na area, de (registro): 250.0 para: 326.34523651589257 (area geometria)
+Lote 18-11-324 sofreu mudanca na area, de (registro): 100.0 para: 193.25178124630892 (area geometria)
+Lote 18-11-262 sofreu mudanca na area, de (registro): 129.14 para: 192.0346069188824 (area geometria)
+Lote 18-11-250 sofreu mudanca na area, de (registro): 105.16 para: 251.21406294857582 (area geometria)
+Lote 18-08-162 sofreu mudanca na area, de (registro): 372.75 para: 151.45521530896076 (area geometria)
+Lote 18-08-171 sofreu mudanca na area, de (registro): 372.75 para: 180.43943157775948 (area geometria)
+Lote 18-06-29 sofreu mudanca na area, de (registro): 121.13 para: 178.15144990937156 (area geometria)
+Lote 18-04-924 sofreu mudanca na area, de (registro): 119.6 para: 164.18386577493706 (area geometria)
+Lote 18-36-39 sofreu mudanca na area, de (registro): 88.0 para: 129.99697630977477 (area geometria)
+Lote 18-36-107 sofreu mudanca na area, de (registro): 781.91 para: 254.36379739857645 (area geometria)
+Lote 18-36-204 sofreu mudanca na area, de (registro): 137.97 para: 191.44120955668575 (area geometria)
+
+Rotulos nao encontrados:
+Rotulo do lote 18-22-399 nao encontrado.
+Rotulo do lote 18-15-393 nao encontrado.
+
+Imoveis 'CONSTRUIDOS' mas sem coberturas vetorizadas:
+
+Logradouros nao mapeados na vetorização:
+Logradouro do endereco do imovel 18-21-275 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-21-285 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-21-338 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-16-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-16-127 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-16-81 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-16-68 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 148, nome PÇA DOUTOR JOSE RIBEIRO FILHO
+Logradouro do endereco do imovel 18-14-354 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-14-318 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-13-197 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-13-187 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-13-187 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-11-43 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-11-33 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+Logradouro do endereco do imovel 18-11-23 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 290, nome RUA DONA MARIA JOSE
+
+Imoveis onde identificou Novas unidades (Imoveis Vagos com cobertura vetorizada):
+O lote 18-33-29 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-32-17 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-27-100 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-18-130 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-13-254 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-05-245 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-02-85 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 18-01-252 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+
+Imoveis que tiveram a inscricao cadastral atualizada:
+Lote 18-34-144 (antigo 18-31-144) atualizado com setor 18, quadra 34 e lote 144

@@ -1,0 +1,307 @@
+Iniciando processamento de lotes
+Total de lotes encontrados: 924
+
+
+Imoveis que sofreram mudanca na area:
+Lote 01-33-365 sofreu mudanca na area, de (registro): 13767.47 para: 690.7158053243465 (area geometria)
+Lote 01-33-250 sofreu mudanca na area, de (registro): 310.5 para: 880.7262639099639 (area geometria)
+Lote 01-33-100 sofreu mudanca na area, de (registro): 169842.0 para: 30639.646746240327 (area geometria)
+Lote 01-28-460 sofreu mudanca na area, de (registro): 126.82 para: 207.49449063832802 (area geometria)
+Lote 01-28-642 sofreu mudanca na area, de (registro): 1.06 para: 1195.853615486055 (area geometria)
+Lote 01-28-671 sofreu mudanca na area, de (registro): 225.0 para: 521.6817471462635 (area geometria)
+Lote 01-16-15 sofreu mudanca na area, de (registro): 209.04 para: 276.4977964961922 (area geometria)
+Lote 01-16-73 sofreu mudanca na area, de (registro): 195.0 para: 53.158312874565205 (area geometria)
+Lote 01-16-169 sofreu mudanca na area, de (registro): 202.81 para: 108.02791128574005 (area geometria)
+Lote 01-15-255 sofreu mudanca na area, de (registro): 112.75 para: 185.7123645210383 (area geometria)
+Lote 01-12-20 sofreu mudanca na area, de (registro): 200.0 para: 279.7410495180002 (area geometria)
+Lote 01-11-90 sofreu mudanca na area, de (registro): 213.0 para: 321.8715758061824 (area geometria)
+Lote 01-17-119 sofreu mudanca na area, de (registro): 181.0 para: 109.94535556383804 (area geometria)
+Lote 01-19-17 sofreu mudanca na area, de (registro): 200.0 para: 315.24138990905266 (area geometria)
+Lote 01-18-22 sofreu mudanca na area, de (registro): 241.0 para: 363.2020164342363 (area geometria)
+Lote 01-18-63 sofreu mudanca na area, de (registro): 146.0 para: 212.15950488813826 (area geometria)
+Lote 01-20-148 sofreu mudanca na area, de (registro): 98.2 para: 145.34413055812269 (area geometria)
+Lote 01-20-112 sofreu mudanca na area, de (registro): 220.0 para: 96.73789300039931 (area geometria)
+Lote 01-20-158 sofreu mudanca na area, de (registro): 100.0 para: 130.78995648625812 (area geometria)
+Lote 01-20-97 sofreu mudanca na area, de (registro): 160.41 para: 227.24968928737326 (area geometria)
+Lote 01-20-87 sofreu mudanca na area, de (registro): 120.0 para: 179.92389806082616 (area geometria)
+Lote 01-20-81 sofreu mudanca na area, de (registro): 108.0 para: 143.40021580537126 (area geometria)
+Lote 01-20-223 sofreu mudanca na area, de (registro): 170.0 para: 231.08972606629254 (area geometria)
+Lote 01-09-56 sofreu mudanca na area, de (registro): 124.2 para: 218.21468549019664 (area geometria)
+Lote 01-09-219 sofreu mudanca na area, de (registro): 214.62 para: 296.04692718894694 (area geometria)
+Lote 01-09-255 sofreu mudanca na area, de (registro): 315.36 para: 428.60081685750237 (area geometria)
+Lote 01-09-264 sofreu mudanca na area, de (registro): 171.04 para: 323.27385901062337 (area geometria)
+Lote 01-08-273 sofreu mudanca na area, de (registro): 192.0 para: 285.7161408137978 (area geometria)
+Lote 01-08-263 sofreu mudanca na area, de (registro): 319.0 para: 444.141480401162 (area geometria)
+Lote 01-08-253 sofreu mudanca na area, de (registro): 100.0 para: 156.9397019495149 (area geometria)
+Lote 01-08-52 sofreu mudanca na area, de (registro): 107.0 para: 140.91740902682892 (area geometria)
+Lote 01-08-57 sofreu mudanca na area, de (registro): 103.0 para: 141.03718664838885 (area geometria)
+Lote 01-08-166 sofreu mudanca na area, de (registro): 220.0 para: 146.19379102562118 (area geometria)
+Lote 01-08-186 sofreu mudanca na area, de (registro): 108.0 para: 206.82958216229127 (area geometria)
+Lote 01-08-181 sofreu mudanca na area, de (registro): 109.0 para: 276.497871076085 (area geometria)
+Lote 01-08-81 sofreu mudanca na area, de (registro): 97.0 para: 149.86559327873712 (area geometria)
+Lote 01-08-91 sofreu mudanca na area, de (registro): 200.0 para: 273.09511867188337 (area geometria)
+Lote 01-08-77 sofreu mudanca na area, de (registro): 105.0 para: 180.0122436378787 (area geometria)
+Lote 01-08-62 sofreu mudanca na area, de (registro): 98.0 para: 130.03933655046472 (area geometria)
+Lote 01-08-194 sofreu mudanca na area, de (registro): 200.0 para: 281.35253913432246 (area geometria)
+Lote 01-08-204 sofreu mudanca na area, de (registro): 200.0 para: 266.69029707434856 (area geometria)
+Lote 01-08-214 sofreu mudanca na area, de (registro): 200.0 para: 303.065345030491 (area geometria)
+Lote 01-08-248 sofreu mudanca na area, de (registro): 106.0 para: 886.2560247879283 (area geometria)
+Lote 01-07-21 sofreu mudanca na area, de (registro): 230.0 para: 156.68333304032174 (area geometria)
+Lote 01-06-34 sofreu mudanca na area, de (registro): 215.04 para: 115.89788349079564 (area geometria)
+Lote 01-06-461 sofreu mudanca na area, de (registro): 189.54 para: 98.77363317243811 (area geometria)
+Lote 01-06-431 sofreu mudanca na area, de (registro): 105.0 para: 229.939429308399 (area geometria)
+Lote 01-05-507 sofreu mudanca na area, de (registro): 153.65 para: 231.4200574630338 (area geometria)
+Lote 01-05-243 sofreu mudanca na area, de (registro): 72.6 para: 103.6214343002281 (area geometria)
+Lote 01-05-340 sofreu mudanca na area, de (registro): 2256.37 para: 222.44814387688393 (area geometria)
+Lote 01-04-265 sofreu mudanca na area, de (registro): 100.0 para: 130.96288999721958 (area geometria)
+Lote 01-03-31 sofreu mudanca na area, de (registro): 153.0 para: 99.71916075301465 (area geometria)
+Lote 01-03-348 sofreu mudanca na area, de (registro): 200.0 para: 372.3125144444175 (area geometria)
+Lote 01-03-359 sofreu mudanca na area, de (registro): 83.38 para: 111.2503637351665 (area geometria)
+Lote 01-03-30 sofreu mudanca na area, de (registro): 171.0 para: 42.73489291891606 (area geometria)
+Lote 01-03-142 sofreu mudanca na area, de (registro): 236.0 para: 104.97090250427557 (area geometria)
+Lote 01-02-256 sofreu mudanca na area, de (registro): 145.61 para: 62.74337898848961 (area geometria)
+Lote 01-02-173 sofreu mudanca na area, de (registro): 64.0 para: 34.873590934061994 (area geometria)
+Lote 01-02-88 sofreu mudanca na area, de (registro): 111.42 para: 201.0764519685504 (area geometria)
+Lote 01-02-55 sofreu mudanca na area, de (registro): 121.51 para: 229.21572136625775 (area geometria)
+Lote 01-28-100 (antigo 32-09-100) sofreu mudanca na area, de (registro): 500.0 para: 3563.619085720067 (area geometria)
+Lote 01-28-122 sofreu mudanca na area, de (registro): 3000.0 para: 1750.0157449033034 (area geometria)
+Lote 01-31-395 sofreu mudanca na area, de (registro): 192.8 para: 111.73695765582204 (area geometria)
+Lote 01-30-155 sofreu mudanca na area, de (registro): 189.0 para: 257.01007784955937 (area geometria)
+Lote 01-30-145 sofreu mudanca na area, de (registro): 200.0 para: 274.9514949138329 (area geometria)
+Lote 01-10-190 sofreu mudanca na area, de (registro): 178.21 para: 273.09558737953057 (area geometria)
+Lote 01-33-365 sofreu mudanca na area, de (registro): 13767.47 para: 690.7158053243465 (area geometria)
+Lote 01-33-250 sofreu mudanca na area, de (registro): 310.5 para: 880.7262639099639 (area geometria)
+Lote 01-33-100 sofreu mudanca na area, de (registro): 169842.0 para: 30639.646746240327 (area geometria)
+Lote 01-28-460 sofreu mudanca na area, de (registro): 126.82 para: 207.49449063832802 (area geometria)
+Lote 01-28-642 sofreu mudanca na area, de (registro): 1.06 para: 1195.853615486055 (area geometria)
+Lote 01-28-671 sofreu mudanca na area, de (registro): 225.0 para: 521.6817471462635 (area geometria)
+Lote 01-16-15 sofreu mudanca na area, de (registro): 209.04 para: 276.4977964961922 (area geometria)
+Lote 01-16-73 sofreu mudanca na area, de (registro): 195.0 para: 53.158312874565205 (area geometria)
+Lote 01-16-169 sofreu mudanca na area, de (registro): 202.81 para: 108.02791128574005 (area geometria)
+Lote 01-15-255 sofreu mudanca na area, de (registro): 112.75 para: 185.7123645210383 (area geometria)
+Lote 01-12-20 sofreu mudanca na area, de (registro): 200.0 para: 279.7410495180002 (area geometria)
+Lote 01-11-90 sofreu mudanca na area, de (registro): 213.0 para: 321.8715758061824 (area geometria)
+Lote 01-17-119 sofreu mudanca na area, de (registro): 181.0 para: 109.94535556383804 (area geometria)
+Lote 01-19-17 sofreu mudanca na area, de (registro): 200.0 para: 315.24138990905266 (area geometria)
+Lote 01-18-22 sofreu mudanca na area, de (registro): 241.0 para: 363.2020164342363 (area geometria)
+Lote 01-18-63 sofreu mudanca na area, de (registro): 146.0 para: 212.15950488813826 (area geometria)
+Lote 01-20-148 sofreu mudanca na area, de (registro): 98.2 para: 145.34413055812269 (area geometria)
+Lote 01-20-112 sofreu mudanca na area, de (registro): 220.0 para: 96.73789300039931 (area geometria)
+Lote 01-20-158 sofreu mudanca na area, de (registro): 100.0 para: 130.78995648625812 (area geometria)
+Lote 01-20-97 sofreu mudanca na area, de (registro): 160.41 para: 227.24968928737326 (area geometria)
+Lote 01-20-87 sofreu mudanca na area, de (registro): 120.0 para: 179.92389806082616 (area geometria)
+Lote 01-20-81 sofreu mudanca na area, de (registro): 108.0 para: 143.40021580537126 (area geometria)
+Lote 01-20-223 sofreu mudanca na area, de (registro): 170.0 para: 231.08972606629254 (area geometria)
+Lote 01-09-56 sofreu mudanca na area, de (registro): 124.2 para: 218.21468549019664 (area geometria)
+Lote 01-09-219 sofreu mudanca na area, de (registro): 214.62 para: 296.04692718894694 (area geometria)
+Lote 01-09-255 sofreu mudanca na area, de (registro): 315.36 para: 428.60081685750237 (area geometria)
+Lote 01-09-264 sofreu mudanca na area, de (registro): 171.04 para: 323.27385901062337 (area geometria)
+Lote 01-08-273 sofreu mudanca na area, de (registro): 192.0 para: 285.7161408137978 (area geometria)
+Lote 01-08-263 sofreu mudanca na area, de (registro): 319.0 para: 444.141480401162 (area geometria)
+Lote 01-08-253 sofreu mudanca na area, de (registro): 100.0 para: 156.9397019495149 (area geometria)
+Lote 01-08-52 sofreu mudanca na area, de (registro): 107.0 para: 140.91740902682892 (area geometria)
+Lote 01-08-57 sofreu mudanca na area, de (registro): 103.0 para: 141.03718664838885 (area geometria)
+Lote 01-08-166 sofreu mudanca na area, de (registro): 220.0 para: 146.19379102562118 (area geometria)
+Lote 01-08-186 sofreu mudanca na area, de (registro): 108.0 para: 206.82958216229127 (area geometria)
+Lote 01-08-181 sofreu mudanca na area, de (registro): 109.0 para: 276.497871076085 (area geometria)
+Lote 01-08-81 sofreu mudanca na area, de (registro): 97.0 para: 149.86559327873712 (area geometria)
+Lote 01-08-91 sofreu mudanca na area, de (registro): 200.0 para: 273.09511867188337 (area geometria)
+Lote 01-08-77 sofreu mudanca na area, de (registro): 105.0 para: 180.0122436378787 (area geometria)
+Lote 01-08-62 sofreu mudanca na area, de (registro): 98.0 para: 130.03933655046472 (area geometria)
+Lote 01-08-194 sofreu mudanca na area, de (registro): 200.0 para: 281.35253913432246 (area geometria)
+Lote 01-08-204 sofreu mudanca na area, de (registro): 200.0 para: 266.69029707434856 (area geometria)
+Lote 01-08-214 sofreu mudanca na area, de (registro): 200.0 para: 303.065345030491 (area geometria)
+Lote 01-08-248 sofreu mudanca na area, de (registro): 106.0 para: 886.2560247879283 (area geometria)
+Lote 01-07-21 sofreu mudanca na area, de (registro): 230.0 para: 156.68333304032174 (area geometria)
+Lote 01-06-34 sofreu mudanca na area, de (registro): 215.04 para: 115.89788349079564 (area geometria)
+Lote 01-06-461 sofreu mudanca na area, de (registro): 189.54 para: 98.77363317243811 (area geometria)
+Lote 01-06-431 sofreu mudanca na area, de (registro): 105.0 para: 229.939429308399 (area geometria)
+Lote 01-05-507 sofreu mudanca na area, de (registro): 153.65 para: 231.4200574630338 (area geometria)
+Lote 01-05-243 sofreu mudanca na area, de (registro): 72.6 para: 103.6214343002281 (area geometria)
+Lote 01-05-340 sofreu mudanca na area, de (registro): 2256.37 para: 222.44814387688393 (area geometria)
+Lote 01-04-265 sofreu mudanca na area, de (registro): 100.0 para: 130.96288999721958 (area geometria)
+Lote 01-03-31 sofreu mudanca na area, de (registro): 153.0 para: 99.71916075301465 (area geometria)
+Lote 01-03-348 sofreu mudanca na area, de (registro): 200.0 para: 372.3125144444175 (area geometria)
+Lote 01-03-359 sofreu mudanca na area, de (registro): 83.38 para: 111.2503637351665 (area geometria)
+Lote 01-03-30 sofreu mudanca na area, de (registro): 171.0 para: 42.73489291891606 (area geometria)
+Lote 01-03-142 sofreu mudanca na area, de (registro): 236.0 para: 104.97090250427557 (area geometria)
+Lote 01-02-256 sofreu mudanca na area, de (registro): 145.61 para: 62.74337898848961 (area geometria)
+Lote 01-02-173 sofreu mudanca na area, de (registro): 64.0 para: 34.873590934061994 (area geometria)
+Lote 01-02-88 sofreu mudanca na area, de (registro): 111.42 para: 201.0764519685504 (area geometria)
+Lote 01-02-55 sofreu mudanca na area, de (registro): 121.51 para: 229.21572136625775 (area geometria)
+Lote 01-28-100 (antigo 32-09-100) sofreu mudanca na area, de (registro): 500.0 para: 3563.619085720067 (area geometria)
+Lote 01-28-122 sofreu mudanca na area, de (registro): 3000.0 para: 1750.0157449033034 (area geometria)
+Lote 01-31-395 sofreu mudanca na area, de (registro): 192.8 para: 111.73695765582204 (area geometria)
+Lote 01-30-155 sofreu mudanca na area, de (registro): 189.0 para: 257.01007784955937 (area geometria)
+Lote 01-30-145 sofreu mudanca na area, de (registro): 200.0 para: 274.9514949138329 (area geometria)
+Lote 01-10-190 sofreu mudanca na area, de (registro): 178.21 para: 273.09558737953057 (area geometria)
+
+Rotulos nao encontrados:
+Rotulo do lote 01-31-138 nao encontrado.
+
+Imoveis 'CONSTRUIDOS' mas sem coberturas vetorizadas:
+
+Logradouros nao mapeados na vetorização:
+Logradouro do endereco do imovel 01-16-44 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-58 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-16-79 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-114 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-16-135 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-155 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-183 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-192 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-13-153 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-13-110 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-13-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-13-10 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-13-128 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-15-160 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-177 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-224 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-265 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-270 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-245 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-197 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-17-08 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-21 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-31 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-41 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-36 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-51 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-151 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-141 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-136 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-117 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-18-130 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-20-107 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-20-81 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-20-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-20-20 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-20-10 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-20-76 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-28-122 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 55, nome BRO NOVO HORIZONTE
+Logradouro do endereco do imovel 01-16-44 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-58 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-16-79 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-114 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-16-135 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-155 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-183 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-16-192 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-13-153 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-13-110 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-13-119 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-13-10 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-13-128 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-15-160 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-177 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-224 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-265 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-270 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-245 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-15-197 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1041, nome RUA PROJETADA 13 (NOVO HORIZONTE) (ANTIGA 17)
+Logradouro do endereco do imovel 01-17-08 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-21 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-31 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-26 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-41 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-36 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-17-51 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-151 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-141 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-136 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-19-117 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-18-130 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-20-107 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-20-81 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-20-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-20-20 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-20-10 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1036, nome RUA PROJETADA 17 (NOVO HORIZONTE)
+Logradouro do endereco do imovel 01-20-76 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1043, nome RUA PROJETADA 16 (NOVO HORIZONTE) (ANTIGA 20)
+Logradouro do endereco do imovel 01-28-122 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 55, nome BRO NOVO HORIZONTE
+
+Imoveis onde identificou Novas unidades (Imoveis Vagos com cobertura vetorizada):
+O lote 01-28-439 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-602 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-622 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-16-196 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-11-35 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-11-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-09-114 (antigo 02-112-114) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-04-41 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-03-147 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-10-150 (antigo 02-57-150) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-10-190 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-439 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-602 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-622 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-16-196 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-11-35 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-11-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-09-114 (antigo 02-112-114) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-04-41 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-03-147 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-28-230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-29-138 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-10-150 (antigo 02-57-150) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 01-10-190 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+
+Imoveis que tiveram a inscricao cadastral atualizada:
+Lote 01-28-420 (antigo 01-01-420) atualizado com setor 01, quadra 28 e lote 420
+Lote 01-18-150 (antigo 01-22-100) atualizado com setor 01, quadra 18 e lote 150
+Lote 01-09-114 (antigo 02-112-114) atualizado com setor 01, quadra 09 e lote 114
+Lote 01-03-330 (antigo 02-59-330) atualizado com setor 01, quadra 03 e lote 330
+Lote 01-28-760 (antigo 01-01-760) atualizado com setor 01, quadra 28 e lote 760
+Lote 01-28-1284 (antigo 01-01-1284) atualizado com setor 01, quadra 28 e lote 1284
+Lote 01-28-649 (antigo 01-01-649) atualizado com setor 01, quadra 28 e lote 649
+Lote 01-28-887 (antigo 01-01-887) atualizado com setor 01, quadra 28 e lote 887
+Lote 01-31-69 (antigo 01-01-69) atualizado com setor 01, quadra 31 e lote 69
+Lote 01-16-1400 (antigo 01-01-1400) atualizado com setor 01, quadra 16 e lote 1400
+Lote 01-16-10 (antigo 01-29-10) atualizado com setor 01, quadra 16 e lote 10
+Lote 01-30-91 (antigo 32-30-90) atualizado com setor 01, quadra 30 e lote 91
+Lote 01-30-52 (antigo 01-31-52) atualizado com setor 01, quadra 30 e lote 52
+Lote 01-30-20 (antigo 01-31-20) atualizado com setor 01, quadra 30 e lote 20
+Lote 01-10-40 (antigo 02-57-40) atualizado com setor 01, quadra 10 e lote 40
+Lote 01-10-50 (antigo 02-57-50) atualizado com setor 01, quadra 10 e lote 50
+Lote 01-10-60 (antigo 02-57-60) atualizado com setor 01, quadra 10 e lote 60
+Lote 01-10-70 (antigo 02-57-70) atualizado com setor 01, quadra 10 e lote 70
+Lote 01-10-80 (antigo 02-57-80) atualizado com setor 01, quadra 10 e lote 80
+Lote 01-10-90 (antigo 02-57-90) atualizado com setor 01, quadra 10 e lote 90
+Lote 01-10-100 (antigo 02-57-100) atualizado com setor 01, quadra 10 e lote 100
+Lote 01-10-110 (antigo 02-57-110) atualizado com setor 01, quadra 10 e lote 110
+Lote 01-10-120 (antigo 02-57-120) atualizado com setor 01, quadra 10 e lote 120
+Lote 01-10-130 (antigo 02-57-130) atualizado com setor 01, quadra 10 e lote 130
+Lote 01-10-140 (antigo 02-57-140) atualizado com setor 01, quadra 10 e lote 140
+Lote 01-10-150 (antigo 02-57-150) atualizado com setor 01, quadra 10 e lote 150
+Lote 01-10-450 (antigo 01-06-450) atualizado com setor 01, quadra 10 e lote 450
+Lote 01-10-451 (antigo 01-06-451) atualizado com setor 01, quadra 10 e lote 451
+Lote 01-28-420 (antigo 01-01-420) atualizado com setor 01, quadra 28 e lote 420
+Lote 01-18-150 (antigo 01-22-100) atualizado com setor 01, quadra 18 e lote 150
+Lote 01-09-114 (antigo 02-112-114) atualizado com setor 01, quadra 09 e lote 114
+Lote 01-03-330 (antigo 02-59-330) atualizado com setor 01, quadra 03 e lote 330
+Lote 01-28-760 (antigo 01-01-760) atualizado com setor 01, quadra 28 e lote 760
+Lote 01-28-1284 (antigo 01-01-1284) atualizado com setor 01, quadra 28 e lote 1284
+Lote 01-28-649 (antigo 01-01-649) atualizado com setor 01, quadra 28 e lote 649
+Lote 01-28-887 (antigo 01-01-887) atualizado com setor 01, quadra 28 e lote 887
+Lote 01-31-69 (antigo 01-01-69) atualizado com setor 01, quadra 31 e lote 69
+Lote 01-16-1400 (antigo 01-01-1400) atualizado com setor 01, quadra 16 e lote 1400
+Lote 01-16-10 (antigo 01-29-10) atualizado com setor 01, quadra 16 e lote 10
+Lote 01-30-91 (antigo 32-30-90) atualizado com setor 01, quadra 30 e lote 91
+Lote 01-30-52 (antigo 01-31-52) atualizado com setor 01, quadra 30 e lote 52
+Lote 01-30-20 (antigo 01-31-20) atualizado com setor 01, quadra 30 e lote 20
+Lote 01-10-40 (antigo 02-57-40) atualizado com setor 01, quadra 10 e lote 40
+Lote 01-10-50 (antigo 02-57-50) atualizado com setor 01, quadra 10 e lote 50
+Lote 01-10-60 (antigo 02-57-60) atualizado com setor 01, quadra 10 e lote 60
+Lote 01-10-70 (antigo 02-57-70) atualizado com setor 01, quadra 10 e lote 70
+Lote 01-10-80 (antigo 02-57-80) atualizado com setor 01, quadra 10 e lote 80
+Lote 01-10-90 (antigo 02-57-90) atualizado com setor 01, quadra 10 e lote 90
+Lote 01-10-100 (antigo 02-57-100) atualizado com setor 01, quadra 10 e lote 100
+Lote 01-10-110 (antigo 02-57-110) atualizado com setor 01, quadra 10 e lote 110
+Lote 01-10-120 (antigo 02-57-120) atualizado com setor 01, quadra 10 e lote 120
+Lote 01-10-130 (antigo 02-57-130) atualizado com setor 01, quadra 10 e lote 130
+Lote 01-10-140 (antigo 02-57-140) atualizado com setor 01, quadra 10 e lote 140
+Lote 01-10-150 (antigo 02-57-150) atualizado com setor 01, quadra 10 e lote 150
+Lote 01-10-450 (antigo 01-06-450) atualizado com setor 01, quadra 10 e lote 450
+Lote 01-10-451 (antigo 01-06-451) atualizado com setor 01, quadra 10 e lote 451

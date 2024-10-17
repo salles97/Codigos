@@ -1,0 +1,449 @@
+Iniciando processamento de lotes
+Total de lotes encontrados: 683
+
+
+Imoveis que sofreram mudanca na area:
+Lote 03-95-299 sofreu mudanca na area, de (registro): 420.0 para: 551.0678919794684 (area geometria)
+Lote 03-92-193 sofreu mudanca na area, de (registro): 432.0 para: 577.3004572021631 (area geometria)
+Lote 03-91-260 sofreu mudanca na area, de (registro): 192.0 para: 267.5669531039344 (area geometria)
+Lote 03-90-155 sofreu mudanca na area, de (registro): 360.4 para: 730.0930287496753 (area geometria)
+Lote 03-90-312 sofreu mudanca na area, de (registro): 266.0 para: 419.5790593957711 (area geometria)
+Lote 03-65-25 sofreu mudanca na area, de (registro): 119.0 para: 238.7195367521178 (area geometria)
+Lote 03-65-82 sofreu mudanca na area, de (registro): 216.0 para: 129.167482127553 (area geometria)
+Lote 03-65-89 sofreu mudanca na area, de (registro): 216.38 para: 106.81096670423032 (area geometria)
+Lote 03-65-85 sofreu mudanca na area, de (registro): 216.38 para: 107.21342502224236 (area geometria)
+Lote 03-36-270 sofreu mudanca na area, de (registro): 204.0 para: 276.1310645666699 (area geometria)
+Lote 03-36-167 sofreu mudanca na area, de (registro): 188.61 para: 289.43598281111764 (area geometria)
+Lote 03-35-358 sofreu mudanca na area, de (registro): 257.1 para: 104.95435212949292 (area geometria)
+Lote 03-35-378 sofreu mudanca na area, de (registro): 305.86 para: 175.13095326549222 (area geometria)
+Lote 03-35-601 sofreu mudanca na area, de (registro): 103.31 para: 209.8372849127169 (area geometria)
+Lote 03-35-229 sofreu mudanca na area, de (registro): 135.0 para: 176.3602663683579 (area geometria)
+Lote 03-35-191 sofreu mudanca na area, de (registro): 156.0 para: 233.32652956585423 (area geometria)
+Lote 03-34-170 sofreu mudanca na area, de (registro): 327.5 para: 191.09811513895127 (area geometria)
+Lote 03-34-100 sofreu mudanca na area, de (registro): 284.83 para: 144.12580209347303 (area geometria)
+Lote 03-34-30 sofreu mudanca na area, de (registro): 729.0 para: 477.479540521777 (area geometria)
+Lote 03-34-258 sofreu mudanca na area, de (registro): 221.93 para: 96.1305818999233 (area geometria)
+Lote 03-27-39 sofreu mudanca na area, de (registro): 432.0 para: 811.3953150352759 (area geometria)
+Lote 03-22-72 sofreu mudanca na area, de (registro): 259.87 para: 345.2495917407834 (area geometria)
+Lote 03-22-326 sofreu mudanca na area, de (registro): 185.64 para: 279.3771143200508 (area geometria)
+Lote 03-21-626 sofreu mudanca na area, de (registro): 361.7 para: 170.71134955802916 (area geometria)
+Lote 03-21-454 sofreu mudanca na area, de (registro): 291.73 para: 191.95505897571067 (area geometria)
+Lote 03-19-157 sofreu mudanca na area, de (registro): 52.78 para: 69.88073720313753 (area geometria)
+Lote 03-19-54 sofreu mudanca na area, de (registro): 154.0 para: 92.59089793649605 (area geometria)
+Lote 03-18-164 sofreu mudanca na area, de (registro): 64.0 para: 90.98498723704174 (area geometria)
+Lote 03-17-79 sofreu mudanca na area, de (registro): 49.12 para: 73.8014794870767 (area geometria)
+Lote 03-17-193 sofreu mudanca na area, de (registro): 168.9 para: 107.0143206152144 (area geometria)
+Lote 03-16-137 sofreu mudanca na area, de (registro): 95.2 para: 127.52507006130232 (area geometria)
+Lote 03-15-14 sofreu mudanca na area, de (registro): 570.0 para: 282.19425432707664 (area geometria)
+Lote 03-15-324 sofreu mudanca na area, de (registro): 150.0 para: 242.6964227771354 (area geometria)
+Lote 03-13-141 sofreu mudanca na area, de (registro): 72.0 para: 106.1612413768182 (area geometria)
+Lote 03-12-159 sofreu mudanca na area, de (registro): 74.55 para: 46.55624518926332 (area geometria)
+Lote 03-11-116 sofreu mudanca na area, de (registro): 220.76 para: 289.947238259335 (area geometria)
+Lote 03-08-157 sofreu mudanca na area, de (registro): 49.33 para: 272.60419670605785 (area geometria)
+Lote 03-06-50 sofreu mudanca na area, de (registro): 380.0 para: 260.1019371260926 (area geometria)
+Lote 03-06-163 sofreu mudanca na area, de (registro): 147.67 para: 205.70416648557597 (area geometria)
+Lote 03-06-126 sofreu mudanca na area, de (registro): 231.81 para: 348.77258981580854 (area geometria)
+Lote 03-05-107 sofreu mudanca na area, de (registro): 172.8 para: 266.45335813792843 (area geometria)
+Lote 03-05-82 sofreu mudanca na area, de (registro): 472.0 para: 309.6414171861257 (area geometria)
+Lote 03-03-100 (antigo 03-01-50) sofreu mudanca na area, de (registro): 539.2 para: 847.4925197456284 (area geometria)
+Lote 03-99-150 sofreu mudanca na area, de (registro): 200.0 para: 272.3839151768203 (area geometria)
+Lote 03-87-429 (antigo 32-02-429) sofreu mudanca na area, de (registro): 49.0 para: 117.3688191031797 (area geometria)
+Lote 03-88-110 (antigo 32-04-110) sofreu mudanca na area, de (registro): 182.53 para: 262.9602375470488 (area geometria)
+Lote 03-104-85 sofreu mudanca na area, de (registro): 2.46 para: 2485.8248249291323 (area geometria)
+Lote 03-83-110 sofreu mudanca na area, de (registro): 200.0 para: 284.10049373716475 (area geometria)
+Lote 03-81-30 sofreu mudanca na area, de (registro): 100.0 para: 215.13351853415006 (area geometria)
+Lote 03-77-90 sofreu mudanca na area, de (registro): 200.0 para: 279.7677869035563 (area geometria)
+Lote 03-62-29 sofreu mudanca na area, de (registro): 190.0 para: 363.2713558137039 (area geometria)
+Lote 03-62-119 sofreu mudanca na area, de (registro): 200.0 para: 101.37444277224807 (area geometria)
+Lote 03-39-162 sofreu mudanca na area, de (registro): 561.0 para: 90.36369477384501 (area geometria)
+Lote 03-38-107 sofreu mudanca na area, de (registro): 233.5 para: 345.30404500894946 (area geometria)
+Lote 03-41-110 sofreu mudanca na area, de (registro): 104.75 para: 183.4200813909294 (area geometria)
+Lote 03-41-115 sofreu mudanca na area, de (registro): 62.85 para: 198.68978661622307 (area geometria)
+Lote 03-42-230 sofreu mudanca na area, de (registro): 211.0 para: 115.53795348246473 (area geometria)
+Lote 03-43-30 sofreu mudanca na area, de (registro): 200.0 para: 96.10715236029989 (area geometria)
+Lote 03-43-140 sofreu mudanca na area, de (registro): 100.0 para: 219.34548467434436 (area geometria)
+Lote 03-43-90 sofreu mudanca na area, de (registro): 105.5 para: 213.3435700779518 (area geometria)
+Lote 03-48-205 sofreu mudanca na area, de (registro): 400.0 para: 197.93762813926475 (area geometria)
+Lote 03-48-200 sofreu mudanca na area, de (registro): 400.0 para: 201.90877106793988 (area geometria)
+Lote 03-46-110 sofreu mudanca na area, de (registro): 400.0 para: 191.1562853019925 (area geometria)
+Lote 03-34-280 sofreu mudanca na area, de (registro): 1558.33 para: 2270.6665355101145 (area geometria)
+Lote 03-08-82 (1) sofreu mudanca na area, de (registro): 157.0 para: 106.09805567039007 (area geometria)
+Lote 03-88-210 (antigo 32-08-210) sofreu mudanca na area, de (registro): 200.0 para: 112.65067239470167 (area geometria)
+Lote 04-52-615 sofreu mudanca na area, de (registro): 563018.0 para: 77812.82585664754 (area geometria)
+Lote 04-52-470 sofreu mudanca na area, de (registro): 6000.0 para: 8179.926262391762 (area geometria)
+Lote 04-50-100 sofreu mudanca na area, de (registro): 1867.1 para: 1109.313857488603 (area geometria)
+Lote 04-01-173 sofreu mudanca na area, de (registro): 150.0 para: 259.4573102311851 (area geometria)
+Lote 04-01-114 sofreu mudanca na area, de (registro): 140.0 para: 217.68607696204273 (area geometria)
+Lote 04-01-590 sofreu mudanca na area, de (registro): 781.5 para: 1105.399255755757 (area geometria)
+Lote 04-01-358 sofreu mudanca na area, de (registro): 64.87 para: 99.02118150098428 (area geometria)
+Lote 04-02-527 sofreu mudanca na area, de (registro): 192.0 para: 254.83195151366385 (area geometria)
+Lote 04-07-67 sofreu mudanca na area, de (registro): 434.75 para: 276.7601649377426 (area geometria)
+Lote 04-27-228 sofreu mudanca na area, de (registro): 260.94 para: 401.19824679107205 (area geometria)
+Lote 04-27-43 sofreu mudanca na area, de (registro): 172.0 para: 279.5198584231722 (area geometria)
+Lote 04-27-185 sofreu mudanca na area, de (registro): 1541.7 para: 385.77524736849585 (area geometria)
+Lote 04-27-290 sofreu mudanca na area, de (registro): 2589.61 para: 404.85008059487944 (area geometria)
+Lote 04-27-284 sofreu mudanca na area, de (registro): 4572.75 para: 771.8956935011449 (area geometria)
+Lote 04-27-311 sofreu mudanca na area, de (registro): 1244.81 para: 266.1367239693113 (area geometria)
+Lote 04-27-411 sofreu mudanca na area, de (registro): 335.64 para: 496.4438098232262 (area geometria)
+Lote 04-27-431 sofreu mudanca na area, de (registro): 308.0 para: 431.51216110446785 (area geometria)
+Lote 04-27-378 sofreu mudanca na area, de (registro): 870.09 para: 454.2572105467691 (area geometria)
+Lote 04-23-456 sofreu mudanca na area, de (registro): 175.84 para: 103.7344867415392 (area geometria)
+Lote 04-23-384 sofreu mudanca na area, de (registro): 386.0 para: 613.5089671354303 (area geometria)
+Lote 04-23-68 sofreu mudanca na area, de (registro): 761.91 para: 437.07233859426975 (area geometria)
+Lote 04-23-404 sofreu mudanca na area, de (registro): 200.0 para: 112.02703660896542 (area geometria)
+Lote 04-23-466 sofreu mudanca na area, de (registro): 179.45 para: 122.9546424919753 (area geometria)
+Lote 04-15-100 sofreu mudanca na area, de (registro): 200.0 para: 261.2296104947777 (area geometria)
+Lote 04-15-45 sofreu mudanca na area, de (registro): 200.0 para: 104.90770485008522 (area geometria)
+Lote 04-15-40 sofreu mudanca na area, de (registro): 200.0 para: 98.5073221361836 (area geometria)
+Lote 04-24-110 sofreu mudanca na area, de (registro): 560.0 para: 798.7680582576586 (area geometria)
+Lote 04-09-374 sofreu mudanca na area, de (registro): 235.0 para: 326.44693773338236 (area geometria)
+Lote 04-29-341 sofreu mudanca na area, de (registro): 181.4 para: 82.8766581133271 (area geometria)
+Lote 04-29-343 sofreu mudanca na area, de (registro): 81.0 para: 110.86345474931188 (area geometria)
+Lote 04-29-389 sofreu mudanca na area, de (registro): 220.0 para: 288.7726447869592 (area geometria)
+Lote 04-29-444 sofreu mudanca na area, de (registro): 3501.0 para: 203.05680273979323 (area geometria)
+Lote 04-29-468 sofreu mudanca na area, de (registro): 204.0 para: 280.04271782584505 (area geometria)
+Lote 04-21-38 sofreu mudanca na area, de (registro): 131.25 para: 61.97880159244759 (area geometria)
+Lote 04-21-32 sofreu mudanca na area, de (registro): 57.0 para: 85.04631126990824 (area geometria)
+Lote 04-10-87 sofreu mudanca na area, de (registro): 400.0 para: 589.431738529436 (area geometria)
+Lote 04-06-59 sofreu mudanca na area, de (registro): 2.0 para: 203.43392851239477 (area geometria)
+Lote 04-43-181 sofreu mudanca na area, de (registro): 160.0 para: 366.20181399925264 (area geometria)
+Lote 04-43-80 sofreu mudanca na area, de (registro): 260.0 para: 115.17747489737201 (area geometria)
+Lote 04-43-85 sofreu mudanca na area, de (registro): 260.0 para: 141.76588911236803 (area geometria)
+Lote 04-42-202 sofreu mudanca na area, de (registro): 220.0 para: 121.83930623863614 (area geometria)
+Lote 04-44-123 sofreu mudanca na area, de (registro): 531.6 para: 266.8718736586357 (area geometria)
+Lote 04-36-202 sofreu mudanca na area, de (registro): 362.5 para: 189.2989836629822 (area geometria)
+Lote 04-36-188 sofreu mudanca na area, de (registro): 750.0 para: 360.90436625597295 (area geometria)
+Lote 04-36-104 sofreu mudanca na area, de (registro): 240.0 para: 359.1977598701786 (area geometria)
+Lote 04-48-50 sofreu mudanca na area, de (registro): 530.0 para: 870.1615122144115 (area geometria)
+Lote 04-30-178 sofreu mudanca na area, de (registro): 200.0 para: 110.29894142108382 (area geometria)
+Lote 04-39-308 sofreu mudanca na area, de (registro): 222.0 para: 113.23566859525161 (area geometria)
+Lote 06-01-496 sofreu mudanca na area, de (registro): 530.0 para: 723.1736053441118 (area geometria)
+Lote 06-01-540 sofreu mudanca na area, de (registro): 1.97 para: 2219.967371764805 (area geometria)
+Lote 06-16-200 (antigo 06-21-200) sofreu mudanca na area, de (registro): 5515.0 para: 10389.091000265467 (area geometria)
+Lote 06-01-951 sofreu mudanca na area, de (registro): 3327.19 para: 4357.976681506509 (area geometria)
+Lote 06-01-04 sofreu mudanca na area, de (registro): 7568.0 para: 12442.686924570493 (area geometria)
+Lote 06-16-3552 sofreu mudanca na area, de (registro): 400.0 para: 629.6267302344525 (area geometria)
+Lote 06-16-4700 sofreu mudanca na area, de (registro): 3.14 para: 30083.533061511975 (area geometria)
+Lote 06-16-360 (antigo 06-21-360) sofreu mudanca na area, de (registro): 5.32 para: 12058.653938802274 (area geometria)
+Lote 06-16-3559 sofreu mudanca na area, de (registro): 190.0 para: 435.3074480738177 (area geometria)
+Lote 06-16-3566 sofreu mudanca na area, de (registro): 400.0 para: 652.588505105842 (area geometria)
+Lote 06-16-3580 sofreu mudanca na area, de (registro): 220.0 para: 662.2950817938472 (area geometria)
+Lote 06-16-3594 sofreu mudanca na area, de (registro): 716.89 para: 1092.5807785441343 (area geometria)
+Lote 06-16-4000 sofreu mudanca na area, de (registro): 4000.0 para: 6645.5014727296575 (area geometria)
+Lote 06-16-3479 sofreu mudanca na area, de (registro): 1563.78 para: 2683.0639532527966 (area geometria)
+Lote 06-16-3523 sofreu mudanca na area, de (registro): 660.0 para: 1087.2842921359934 (area geometria)
+Lote 06-16-3275 sofreu mudanca na area, de (registro): 330.0 para: 1099.8153082733036 (area geometria)
+Lote 06-16-3282 sofreu mudanca na area, de (registro): 330.0 para: 648.8712124757423 (area geometria)
+Lote 06-16-3294 sofreu mudanca na area, de (registro): 495.0 para: 679.0910062772685 (area geometria)
+Lote 06-16-3301 sofreu mudanca na area, de (registro): 330.0 para: 657.1190632354208 (area geometria)
+Lote 06-16-3318 sofreu mudanca na area, de (registro): 330.0 para: 1097.3229909610673 (area geometria)
+Lote 06-16-3328 sofreu mudanca na area, de (registro): 412.0 para: 557.4103809814895 (area geometria)
+Lote 06-16-3338 sofreu mudanca na area, de (registro): 412.5 para: 781.4154475328697 (area geometria)
+Lote 06-16-3348 sofreu mudanca na area, de (registro): 412.5 para: 544.790155810038 (area geometria)
+Lote 06-16-3358 sofreu mudanca na area, de (registro): 412.5 para: 583.4988978049332 (area geometria)
+Lote 06-16-3316 sofreu mudanca na area, de (registro): 566.6 para: 1326.1423642255336 (area geometria)
+Lote 06-13-518 sofreu mudanca na area, de (registro): 440.0 para: 216.56965601304586 (area geometria)
+Lote 06-14-808 sofreu mudanca na area, de (registro): 82.56 para: 298.17747108605437 (area geometria)
+Lote 06-14-886 sofreu mudanca na area, de (registro): 1000.0 para: 1470.9295625064308 (area geometria)
+Lote 06-14-596 sofreu mudanca na area, de (registro): 4.8 para: 4818.421210269153 (area geometria)
+Lote 06-14-176 sofreu mudanca na area, de (registro): 700.0 para: 929.1080286456581 (area geometria)
+Lote 06-14-208 sofreu mudanca na area, de (registro): 1.53 para: 1654.0511632369492 (area geometria)
+Lote 06-06-165 sofreu mudanca na area, de (registro): 200.0 para: 271.1758719183497 (area geometria)
+Lote 06-06-161 sofreu mudanca na area, de (registro): 400.0 para: 193.7019180427825 (area geometria)
+Lote 06-03-119 sofreu mudanca na area, de (registro): 200.0 para: 68.27556103760728 (area geometria)
+Lote 06-03-172 sofreu mudanca na area, de (registro): 800.0 para: 202.065510617646 (area geometria)
+Lote 06-02-131 sofreu mudanca na area, de (registro): 170.31 para: 248.5936212924237 (area geometria)
+Lote 07-27-85 sofreu mudanca na area, de (registro): 104.42 para: 136.11713007584825 (area geometria)
+Lote 07-27-244 sofreu mudanca na area, de (registro): 58.0 para: 76.17284656015379 (area geometria)
+Lote 07-27-112 sofreu mudanca na area, de (registro): 103.54 para: 29.141305361583242 (area geometria)
+Lote 07-27-265 sofreu mudanca na area, de (registro): 48.0 para: 90.90944985865187 (area geometria)
+Lote 07-27-291 sofreu mudanca na area, de (registro): 407.5 para: 190.23420249377386 (area geometria)
+Lote 07-28-301 sofreu mudanca na area, de (registro): 243.0 para: 128.41505362795712 (area geometria)
+Lote 07-29-305 (antigo 07-79-305) sofreu mudanca na area, de (registro): 116.0 para: 152.96047534100572 (area geometria)
+Lote 07-26-226 sofreu mudanca na area, de (registro): 120.0 para: 209.65536902085046 (area geometria)
+Lote 07-26-218 sofreu mudanca na area, de (registro): 375.22 para: 164.58643225616086 (area geometria)
+Lote 07-26-730 sofreu mudanca na area, de (registro): 203.0 para: 106.53426039466831 (area geometria)
+Lote 07-26-450 sofreu mudanca na area, de (registro): 547.23 para: 292.76409844736384 (area geometria)
+Lote 07-26-537 sofreu mudanca na area, de (registro): 316.2 para: 91.05014873529797 (area geometria)
+Lote 07-26-419 sofreu mudanca na area, de (registro): 214.84 para: 509.2547522612714 (area geometria)
+Lote 07-25-30 sofreu mudanca na area, de (registro): 120.0 para: 197.2029088297677 (area geometria)
+Lote 07-24-421 sofreu mudanca na area, de (registro): 200.0 para: 438.0571972915125 (area geometria)
+Lote 07-24-341 sofreu mudanca na area, de (registro): 490.0 para: 301.7582497614823 (area geometria)
+Lote 07-23-320 sofreu mudanca na area, de (registro): 200.0 para: 138.5001940354019 (area geometria)
+Lote 07-23-329 sofreu mudanca na area, de (registro): 198.0 para: 51.922822943577344 (area geometria)
+Lote 07-23-364 sofreu mudanca na area, de (registro): 95.0 para: 302.01270899227677 (area geometria)
+Lote 07-22-112 sofreu mudanca na area, de (registro): 248.5 para: 166.1043094668702 (area geometria)
+Lote 07-22-170 sofreu mudanca na area, de (registro): 198.09 para: 261.5578192232673 (area geometria)
+Lote 07-21-234 sofreu mudanca na area, de (registro): 235.0 para: 312.1861163588443 (area geometria)
+Lote 07-21-301 sofreu mudanca na area, de (registro): 483.0 para: 841.8645806977565 (area geometria)
+Lote 07-21-331 sofreu mudanca na area, de (registro): 430.0 para: 139.6042767624933 (area geometria)
+Lote 07-21-441 sofreu mudanca na area, de (registro): 436.0 para: 298.13410097517897 (area geometria)
+Lote 07-21-560 sofreu mudanca na area, de (registro): 304.8 para: 43.53017741769058 (area geometria)
+Lote 07-21-561 sofreu mudanca na area, de (registro): 304.8 para: 8.577726188172655 (area geometria)
+Lote 07-21-562 sofreu mudanca na area, de (registro): 304.8 para: 47.85057244568239 (area geometria)
+Lote 07-21-563 sofreu mudanca na area, de (registro): 304.8 para: 117.94070819309505 (area geometria)
+Lote 07-21-523 sofreu mudanca na area, de (registro): 344.82 para: 239.15140184957872 (area geometria)
+Lote 07-16-360 (antigo 07-17-365) sofreu mudanca na area, de (registro): 188.5 para: 128.129577118444 (area geometria)
+Lote 07-16-309 sofreu mudanca na area, de (registro): 198.0 para: 97.09598242892231 (area geometria)
+Lote 07-19-76 sofreu mudanca na area, de (registro): 292.09 para: 381.2511289626469 (area geometria)
+Lote 07-20-264 sofreu mudanca na area, de (registro): 216.61 para: 108.0500772859552 (area geometria)
+Lote 07-20-269 sofreu mudanca na area, de (registro): 216.61 para: 102.36860181989964 (area geometria)
+Lote 07-14-158 (antigo 07-18-158) sofreu mudanca na area, de (registro): 97.37 para: 61.51207077466873 (area geometria)
+Lote 07-14-50 sofreu mudanca na area, de (registro): 197.64 para: 132.37264903036484 (area geometria)
+Lote 07-12-75 sofreu mudanca na area, de (registro): 85.81 para: 58.453116112077765 (area geometria)
+Lote 07-11-129 sofreu mudanca na area, de (registro): 820.05 para: 1369.2587729796812 (area geometria)
+Lote 07-08-217 sofreu mudanca na area, de (registro): 172.2 para: 113.73473083183339 (area geometria)
+Lote 07-08-222 sofreu mudanca na area, de (registro): 59.4 para: 116.09782394971585 (area geometria)
+Lote 07-08-307 sofreu mudanca na area, de (registro): 112.0 para: 183.8626517250851 (area geometria)
+Lote 07-08-509 sofreu mudanca na area, de (registro): 664.0 para: 1172.9475805884197 (area geometria)
+Lote 07-10-188 sofreu mudanca na area, de (registro): 25.79 para: 41.215733948904884 (area geometria)
+Lote 07-10-179 sofreu mudanca na area, de (registro): 87.31 para: 45.51194456516214 (area geometria)
+Lote 07-10-140 sofreu mudanca na area, de (registro): 68.45 para: 132.40791216602753 (area geometria)
+Lote 07-05-193 sofreu mudanca na area, de (registro): 164.5 para: 333.52883076980515 (area geometria)
+Lote 07-04-191 sofreu mudanca na area, de (registro): 699.37 para: 1221.4642835224915 (area geometria)
+Lote 07-04-299 sofreu mudanca na area, de (registro): 997.48 para: 388.99744851349317 (area geometria)
+Lote 07-04-365 sofreu mudanca na area, de (registro): 157.7 para: 320.18300796364395 (area geometria)
+Lote 07-02-79 sofreu mudanca na area, de (registro): 400.0 para: 150.86907010764673 (area geometria)
+Lote 07-02-89 sofreu mudanca na area, de (registro): 400.0 para: 105.92940068907447 (area geometria)
+
+Rotulos nao encontrados:
+Rotulo 03-21-L_s.cad (2)-st nao se encaixa em nenhum padrao conhecido.
+Rotulo do lote 04-52-1950 nao encontrado.
+Rotulo do lote 05-25-134 nao encontrado.
+Rotulo do lote 04-49-150 nao encontrado.
+Rotulo do lote 04-49-136 nao encontrado.
+Rotulo do lote 04-30-180 nao encontrado.
+Rotulo do lote 07-02-201 nao encontrado.
+
+Imoveis 'CONSTRUIDOS' mas sem coberturas vetorizadas:
+O lote 04-06-376 foi identificado sem coberturas e/ou benfeitorias. Lote tem 2 unidades
+
+Logradouros nao mapeados na vetorização:
+Logradouro do endereco do imovel 03-76-10 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 831, nome RUA 4 (DIST ESPOLIO ANTONIO HONORATO DA
+Logradouro do endereco do imovel 03-74-130 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 784, nome RUA ANTONIO HONORATO DA SILVA
+Logradouro do endereco do imovel 03-67-152 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 737, nome RUA C (LOT CHACARA DAS MOCAS)
+Logradouro do endereco do imovel 03-90-635 (antigo 03-65-635) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 34, nome RUA PEDRO GONCALVES PEREIRA
+Logradouro do endereco do imovel 03-90-595 (antigo 03-65-595) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 34, nome RUA PEDRO GONCALVES PEREIRA
+Logradouro do endereco do imovel 03-90-605 (antigo 03-65-605) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 34, nome RUA PEDRO GONCALVES PEREIRA
+Logradouro do endereco do imovel 03-90-615 (antigo 03-65-615) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 34, nome RUA PEDRO GONCALVES PEREIRA
+Logradouro do endereco do imovel 03-90-625 (antigo 03-65-625) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 34, nome RUA PEDRO GONCALVES PEREIRA
+Logradouro do endereco do imovel 03-34-980 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1362, nome RUA PROJETADA 2 ( MORRO CHIC)
+Logradouro do endereco do imovel 03-34-700 (antigo 03-97-125) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1262, nome RUA PROJETADA N - CHACARA DAS MOCAS
+Logradouro do endereco do imovel 03-25-159 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 34, nome RUA PEDRO GONCALVES PEREIRA
+Logradouro do endereco do imovel 03-05-89 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 60, nome AV. CAPITAO JOAO RENNO
+Logradouro do endereco do imovel 03-73-155 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 901, nome RUA PROJETADA (VILA ISABEL)
+Logradouro do endereco do imovel 03-73-130 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 901, nome RUA PROJETADA (VILA ISABEL)
+Logradouro do endereco do imovel 03-88-30 (antigo 32-08-30) nao foi encontrado. Logradouro no cadastro da prefeitura: cod 110, nome EST MARIA DA FE
+Logradouro do endereco do imovel 03-102-71 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 110, nome EST MARIA DA FE
+Logradouro do endereco do imovel 03-83-110 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1337, nome RUA CELIO JACINTO DO PRADO
+Logradouro do endereco do imovel 03-81-40 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-81-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-81-80 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-40 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-50 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-60 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-70 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-80 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-120 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-80-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-79-60 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-79-30 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-77-120 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-77-110 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-77-100 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-77-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-86-80 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-86-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-86-100 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-86-110 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-81-50 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-79-70 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-79-80 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-79-100 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 03-79-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 714, nome RUA ANISIO CANDIDO FERREIRA
+Logradouro do endereco do imovel 04-01-590 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 151, nome PÇA PADRE DONATO VAN HEST
+Logradouro do endereco do imovel 04-23-186 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 863, nome RUA 2 PROJETADA (DA FLORESTA)
+Logradouro do endereco do imovel 04-29-468 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1295, nome RUA PROJETADA A (LOT. JARDIM DE LOURDES) B.ESTIVA
+Logradouro do endereco do imovel 06-16-4600 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1300, nome RUA PROJETADA A (DISTRITO INDUSTRIAL)
+Logradouro do endereco do imovel 06-16-1310 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1157, nome RUA SANTOS DUMONT
+Logradouro do endereco do imovel 06-02-171 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 1498, nome RUA JOSE RODRIGUES SOBRINHO ( RUA PROJ.2 CH.EL.II)
+Logradouro do endereco do imovel 06-22-60 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 06-22-70 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 06-22-80 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 06-22-90 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 06-22-100 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 06-22-120 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 06-22-110 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 75, nome AV. PROFESSOR IVAN DOS SANTOS PEREIRA
+Logradouro do endereco do imovel 07-08-406 nao foi encontrado. Logradouro no cadastro da prefeitura: cod 311, nome RUA 19 DE MARCO
+
+Imoveis onde identificou Novas unidades (Imoveis Vagos com cobertura vetorizada):
+O lote 03-64-259 (antigo 02-51-259) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-67-10 (antigo 03-70-40) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-95-46 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-92-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-91-260 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-90-102 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-76-90 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-67-182 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-66-60 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-65-49 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-65-130 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-65-82 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-65-135 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-36-270 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-34-498 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-34-1000 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-34-760 (antigo 03-65-245) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-34-670 (antigo 03-97-145) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-34-740 (antigo 03-65-225) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-34-640 (antigo 03-97-150) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-28-282 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-28-144 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-28-344 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-27-149 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-27-71 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-23-234 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-22-291 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-21-169 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-73-45 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-50-135 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-50-75 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-50-15 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-50-95 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-88-120 (antigo 32-02-120) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-104-195 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-104-115 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-109-68 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-83-160 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-77-200 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-62-89 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-41-110 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-43-40 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-86-180 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-49-170 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-49-50 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-49-49 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-47-110 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-46-120 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-37-188 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-24-179 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-29-57 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-88-210 (antigo 32-08-210) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-88-230 (antigo 32-02-230) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-108-221 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 03-79-107 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-28-57 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-52-979 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-52-630 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-52-615 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-27-53 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-27-411 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-23-404 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-16-71 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-19-187 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-24-40 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-24-282 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-09-94 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-12-225 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-12-121 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-13-172 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-29-444 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-29-148 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-28-57 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-28-145 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-25-38 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-17-50 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-17-30 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-17-113 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-17-103 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-03-50 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-10-188 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-06-123 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-05-308 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-26-47 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-41-176 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-41-33 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-40-214 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-40-169 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-40-97 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-40-356 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-40-49 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-44-320 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-39-363 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-39-399 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-39-150 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-39-245 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-36-230 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-48-291 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-30-84 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-13-60 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 04-40-344 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-16-4700 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-15-1600 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-15-700 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-14-04 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-14-176 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-01-344 (antigo 06-07-344) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-06-161 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-04-71 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-12-30 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 06-02-61 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-28-146 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-29-262 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-26-830 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-26-735 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-25-248 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-24-311 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-24-136 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-23-356 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-21-472 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-18-75 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-19-87 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-20-150 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-20-130 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-14-158 (antigo 07-18-158) nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-04-192 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-04-191 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+O lote 07-01-150 nao possui unidade imobiliaria e foi identificado cobertura pela vetorizacao.
+
+Imoveis que tiveram a inscricao cadastral atualizada:
+Lote 03-64-259 (antigo 02-51-259) atualizado com setor 03, quadra 64 e lote 259
+Lote 03-02-100 (antigo 03-02-100) atualizado com setor 03, quadra 02 e lote 100
+Lote 03-67-10 (antigo 03-70-40) atualizado com setor 03, quadra 67 e lote 10
+Lote 03-67-90 (antigo 03-68-40) atualizado com setor 03, quadra 67 e lote 90
+Lote 03-67-100 (antigo 03-68-70) atualizado com setor 03, quadra 67 e lote 100
+Lote 03-67-80 (antigo 03-68-30) atualizado com setor 03, quadra 67 e lote 80
+Lote 03-90-595 (antigo 03-65-595) atualizado com setor 03, quadra 90 e lote 595
+Lote 03-34-770 (antigo 03-65-255) atualizado com setor 03, quadra 34 e lote 770
+Lote 03-34-760 (antigo 03-65-245) atualizado com setor 03, quadra 34 e lote 760
+Lote 03-34-720 (antigo 03-65-205) atualizado com setor 03, quadra 34 e lote 720
+Lote 03-34-690 (antigo 03-97-131) atualizado com setor 03, quadra 34 e lote 690
+Lote 03-34-730 (antigo 03-65-215) atualizado com setor 03, quadra 34 e lote 730
+Lote 03-34-670 (antigo 03-97-145) atualizado com setor 03, quadra 34 e lote 670
+Lote 03-34-740 (antigo 03-65-225) atualizado com setor 03, quadra 34 e lote 740
+Lote 03-34-640 (antigo 03-97-150) atualizado com setor 03, quadra 34 e lote 640
+Lote 03-34-630 (antigo 03-97-155) atualizado com setor 03, quadra 34 e lote 630
+Lote 03-03-100 (antigo 03-01-50) atualizado com setor 03, quadra 03 e lote 100
+Lote 03-88-120 (antigo 32-02-120) atualizado com setor 03, quadra 88 e lote 120
+Lote 03-89-116 (antigo 32-04-116) atualizado com setor 03, quadra 89 e lote 116
+Lote 03-87-439 (antigo 32-02-439) atualizado com setor 03, quadra 87 e lote 439
+Lote 03-87-429 (antigo 32-02-429) atualizado com setor 03, quadra 87 e lote 429
+Lote 03-87-295 (antigo 02-52-295) atualizado com setor 03, quadra 87 e lote 295
+Lote 03-87-528 (antigo 32-02-528) atualizado com setor 03, quadra 87 e lote 528
+Lote 03-87-400 (antigo 32-02-400) atualizado com setor 03, quadra 87 e lote 400
+Lote 03-88-80 (antigo 32-02-80) atualizado com setor 03, quadra 88 e lote 80
+Lote 03-88-70 (antigo 32-06-70) atualizado com setor 03, quadra 88 e lote 70
+Lote 03-88-210 (antigo 32-08-210) atualizado com setor 03, quadra 88 e lote 210
+Lote 03-88-230 (antigo 32-02-230) atualizado com setor 03, quadra 88 e lote 230
+Lote 03-89-180 (antigo 32-04-180) atualizado com setor 03, quadra 89 e lote 180
+Lote 04-29-294 (antigo 04-14-294) atualizado com setor 04, quadra 29 e lote 294
+Lote 04-06-321 (antigo 04-05-321) atualizado com setor 04, quadra 06 e lote 321
+Lote 04-29-318 (antigo 04-14-318) atualizado com setor 04, quadra 29 e lote 318
+Lote 06-16-200 (antigo 06-21-200) atualizado com setor 06, quadra 16 e lote 200
+Lote 06-16-360 (antigo 06-21-360) atualizado com setor 06, quadra 16 e lote 360
+Lote 06-01-344 (antigo 06-07-344) atualizado com setor 06, quadra 01 e lote 344
+Lote 07-29-305 (antigo 07-79-305) atualizado com setor 07, quadra 29 e lote 305
+Lote 07-21-220 (antigo 07-22-220) atualizado com setor 07, quadra 21 e lote 220
+Lote 07-16-360 (antigo 07-17-365) atualizado com setor 07, quadra 16 e lote 360
+Lote 07-14-158 (antigo 07-18-158) atualizado com setor 07, quadra 14 e lote 158
